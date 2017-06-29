@@ -8,4 +8,4 @@ All the training related materials will be go here.
 
 * [es6][] -- Ecmascript 6
 
-[es6]: http://pythonhosted.org/Markdown/extensions/abbreviations.html
+[es6]: https://github.com/team-avesta/wiki/blob/master/training/es6/README.md
