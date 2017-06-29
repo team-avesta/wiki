@@ -18,7 +18,8 @@ This repository contains articles &amp; useful information about technologies wh
 
 Step 1: Clone avesta/wiki repository to your local machine.
 
-```$ git clone https://github.com/team-avesta/wiki.git
+```
+$ git clone https://github.com/team-avesta/wiki.git
 ```
 Step 2: Install Sublime plugin for Markdown Preview Using Package Control.
 
@@ -42,21 +43,25 @@ Step 3: Make changes on existing topic or write new topic.
 
 Step 4: After making some changes you can add it to git branch.
 
-```$ git add .
+```
+$ git add .
 ```
 
 Step 5: Commit your changes to git repo.
 
-```$ git commit -m "Commit Message"
+```
+$ git commit -m "Commit Message"
 ```
 
 Step 6: Pull new changes from online repo.
 
-```$ git pull master origin
+```
+$ git pull master origin
 ```
 
 Step 7: Push your changes to online repo.
 
-```$ git push master origin
+```
+$ git push master origin
 ```
 
