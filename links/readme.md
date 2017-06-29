@@ -8,14 +8,14 @@ Create a new category if you find that your link doesn't fit into any category.
 
 - [Nodejs](#nodejs)
 - [Angular Js](#angular-js)
-- [React Js](#platforms)
-- [Microservices](#platforms)
+- [React Js](#react-js)
+- [Microservices](#microservices)
 - [Docker](#docker)
-- [Kubernetes](#platforms)
-- [AWS](#platforms)
-- [Javascript](#platforms)
-- [TDD](#platforms)
-- [Postgresql](#platforms)
+- [Kubernetes](#kubernetes)
+- [AWS](#aws)
+- [Javascript](#javascript)
+- [TDD](#tdd)
+- [Postgresql](#postgresql)
 
 
 ## Nodejs
