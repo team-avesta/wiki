@@ -52,6 +52,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [nodejs-development-production-docker-workflow](http://jdlm.info/articles/2016/03/06/lessons-building-node-app-docker.html) -- Lessons from Building a Node App in Docker
 * [Namespace isolation](https://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces) -- A Tutorial for Isolating Your System with Linux Namespaces
 * [linux-containers-isolation](https://blog.engineyard.com/2015/linux-containers-isolation)
+* [docker-internals](http://docker-saigon.github.io/post/Docker-Internals/)
+* [Docker Container Networks](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks)
 
 
 ## Microservices
@@ -137,6 +139,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [best-sysadmin-blogs](https://itsfoss.com/best-sysadmin-blogs/)
 * [linux-server-monitoring-commands](https://insights.hpe.com/articles/16-linux-server-monitoring-commands-you-really-need-to-know-1703.html)
 * [midnight-commander](http://linuxcommand.org/lc3_adv_mc.php)
+* [nixos](https://nixos.org/) -- NixOS is a Linux distribution with a unique approach to package and configuration management. Built on top of the Nix package manager.
 
 ## Logging & Monitoring
 
