@@ -68,6 +68,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [katacoda](https://www.katacoda.com/) -- Learn new technologies right in your browser
 * [openebs](https://www.openebs.io/) -- Containerized, open source storage for containers
 * [pg-statefulsets](http://blog.kubernetes.io/2017/02/postgresql-clusters-kubernetes-statefulsets.html?m=1) -- Deploying PostgreSQL Clusters using StatefulSets
+* [ksonnet](http://ksonnet.heptio.com/) -- A Jsonnet library that compiles to Kubernetes YAML
+* [jsonnet-templating-language](https://databricks.com/blog/2017/06/26/declarative-infrastructure-jsonnet-templating-language.html)
 
 ## AWS
 
