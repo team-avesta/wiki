@@ -8,11 +8,10 @@ Loadtest tools and articles.
 
 [artillery]: https://artillery.io/
 [vegenta]: https://github.com/tsenart/vegeta
-[es6-features]: http://es6-features.org/#Constants
 
 
 #### Articles
 
 * [vegenta-and-python][] -- Loadtesting with vegenta and python.
 
-[vegenta-and-python]: https://es6console.com/
+[vegenta-and-python]: https://github.com/team-avesta/wiki/blob/master/engineering/devops/loadtest/loadtesting_with_vegenta_and_python.md

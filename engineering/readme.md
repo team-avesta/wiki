@@ -8,5 +8,6 @@ All the engineering related materials will be go here.
 
 - Development
 - Devops
-  - [Git workflow](https://github.com/team-avesta/wiki/blob/master/engineering/devops/git/GitWorkflow.md)
+  - [Git workflow](https://github.com/team-avesta/wiki/blob/master/engineering/devops/loadtest/README.md)
+  - [LoadTest](https://github.com/team-avesta/wiki/blob/master/engineering/devops/loadtest/README.md)
 - Sysops
