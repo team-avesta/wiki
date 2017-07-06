@@ -1,6 +1,6 @@
 #Push mode -Running a Playbook
 
-Pre requisities install ansible and python on the server, and list of connected clients ip addresses, [ssh configured](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/pushplaybook.md).
+Pre requisities install ansible and python on the server, and list of connected clients ip addresses, [ssh configured](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/sshkey.md).
 
 Create a new file using nano playbook.yml and edit it with yaml syntax, every playbook starts with first line "---" and then followed by hosts section which contains information about defaults to use for connecting and after that the tasiks section which has the different task modules to run with its appropriate parameters. The list of parameters which can be used are available on ansible documentation for its respective module.
 

@@ -1,7 +1,7 @@
 
 # Push mode - Commandline 
 
-Pre requisities install ansible and python on the server, and list of connected clients ip addresses,[ssh configured](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/pushplaybook.md).
+Pre requisities install ansible and python on the server, and list of connected clients ip addresses,[ssh configured](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/sshkey.md).
 
 
 For passwordless ansible command run, need to add ssh-key to all the hosts from master server as shown in link. 

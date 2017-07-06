@@ -44,11 +44,11 @@ Push Mode
 
 Ansible can be used in multiple ways, below are 3 described ones
 
-1 [Commandline directly specifying which shell command to use, on hosts(or group of hosts) specified over ssh. (ssh access needs to be configured for all push modes)] (https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/push1.md)
+1 Commandline directly specifying which shell command to use, on hosts(or group of hosts) specified over ssh. (ssh access needs to be configured for all push modes) [link](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/push1.md)
 
-2 [Commandline using ansible predefined modules to execute module based function, on specified hosts or group of hosts. If same module is run again, and effective new changes are possible, it wont run it again. If one tries to install an application which is already installed for the same corresponding parameters, it will not reinstall it.] (https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/push2.md)
+2 Commandline using ansible predefined modules to execute module based function, on specified hosts or group of hosts. If same module is run again, and effective new changes are possible, it wont run it again. If one tries to install an application which is already installed for the same corresponding parameters, it will not reinstall it. [link](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/push2.md)
 
-3 [Using a predefined yaml playbook, this method is very useful for executing a longer list of modules, generating better log files, and repeat use of same playbooks. It is merely a collection of multiple commands \ module functions grouped together to be executed. It also allows finer control for conditional\sequential execution of all tasks in the playbook(tasks = commands\ module function list)] (https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/pushplaybook.md)
+3 Using a predefined yaml playbook, this method is very useful for executing a longer list of modules, generating better log files, and repeat use of same playbooks. It is merely a collection of multiple commands \ module functions grouped together to be executed. It also allows finer control for conditional\sequential execution of all tasks in the playbook(tasks = commands\ module function list) [link](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/pushplaybook.md)
  
 
 
