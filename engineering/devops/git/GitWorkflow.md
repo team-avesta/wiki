@@ -68,3 +68,5 @@ If a release branch exists at the moment hotfix branch is merged into master, th
 * Use GUI for git in case of merge conflicts
 * Never push directly to master
 * Follow naming conventions stritcly
+
+(vb)
