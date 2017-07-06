@@ -1,4 +1,4 @@
-#Push mode -Running a Playbook
+# Push mode -Running a Playbook
 
 Pre requisities install ansible and python on the server, and list of connected clients ip addresses, [ssh configured](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/sshkey.md).
 
