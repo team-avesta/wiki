@@ -150,6 +150,7 @@ Example playbook running one play:
 * [SetUp][] -- This module is automatically called by playbooks to gather useful variables about remote hosts that can be used in playbooks.
 * [Cron][] -- Use this module to manage crontab and environment variables entries. 
 * [Command][] -- The command module takes the command name followed by a list of space-delimited arguments.
+* [Mount][] -- This module controls active and configured mount points in /etc/fstab.
 
 [Apt]:http://docs.ansible.com/ansible/apt_module
 [Docker]:http://docs.ansible.com/ansible/docker_module
@@ -160,7 +161,7 @@ Example playbook running one play:
 [SetUp]:http://docs.ansible.com/ansible/setup_module
 [Cron]:http://docs.ansible.com/ansible/cron_module
 [Command]:http://docs.ansible.com/ansible/command_module
-
+[Mount]:http://docs.ansible.com/ansible/mount_module
 
 
 
