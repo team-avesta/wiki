@@ -71,10 +71,12 @@ Create a new category if you find that your link doesn't fit into any category.
 * [pg-statefulsets](http://blog.kubernetes.io/2017/02/postgresql-clusters-kubernetes-statefulsets.html?m=1) -- Deploying PostgreSQL Clusters using StatefulSets
 * [ksonnet](http://ksonnet.heptio.com/) -- A Jsonnet library that compiles to Kubernetes YAML
 * [jsonnet-templating-language](https://databricks.com/blog/2017/06/26/declarative-infrastructure-jsonnet-templating-language.html)
+* [hands-on-introduction](http://kubernetesbyexample.com/)
 
 ## AWS
 
 * [awesome-aws](https://github.com/donnemartin/awesome-aws) -- A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.
+* [manage-secrets-for-aws-ecs-apps](https://aws.amazon.com/blogs/compute/managing-secrets-for-amazon-ecs-applications-using-parameter-store-and-iam-roles-for-tasks/?sc_channel=sm&sc_campaign=PAC_Social&sc_publisher=TWITTER&sc_country=Global&sc_geo=GLOBAL&sc_outcome=adoption&sc_content=PAC_0708_ECS_parameter_store_and_IAM_roles&sc_category=Amazon_EC2%20Container%20Service&linkId=39544439)
 
 ## Javascript
 
