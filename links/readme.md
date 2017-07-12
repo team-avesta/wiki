@@ -22,7 +22,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Web Security](#web-security)
 - [Devops](#devops)
 - [Coreos](#coreos)
-- [Machine Learning](#machinelearning)
+- [Machine Learning & Image Processing](#machinelearning)
 - [Prometheus](#prometheus)
 - [Raspberrypi](#raspberrypi)
 - [Sysops](#sysops)
@@ -130,6 +130,7 @@ Create a new category if you find that your link doesn't fit into any category.
 ## Machine Learning
 
 * [deep learning courses](https://medium.freecodecamp.org/dive-into-deep-learning-with-these-23-online-courses-bf247d289cc0) -- Dive into Deep Learning with 15 free online courses
+* [tesseract-ocr-with-python](http://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/)
 
 ## Prometheus
 
