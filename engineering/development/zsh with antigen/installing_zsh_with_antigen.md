@@ -52,12 +52,10 @@ antigen apply
 #export NVM_DIR="/home/your_user_name/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
-Step 5: To make the change permanent from bash to zsh:
-```
-  First off we are going to change the login shell so open a console emulator and type in:
+Step 5: Now by default your terminal points to /bin/bash but now we need to point it to /bin/zsh. Run below commands for doing that:
+```  
   1) chsh 
-  2) /bin/zsh  (This will make zsh your login shell for linux now)  
-  3) su (enter your password then retype in what you did above this, this will make your default root shell zsh.)
+  2) /bin/zsh  (This will make zsh your login shell for linux now)    
   ```
 Step 6: Restart your terminal and let antigen install all the plugins and required packages
 
