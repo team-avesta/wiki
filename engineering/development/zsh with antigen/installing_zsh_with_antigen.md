@@ -57,3 +57,4 @@ After completing above instructions, your terminal should show all the command s
 
 Useful links:
 * [Git aliases](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet#git)
+* [Git flow commands](https://github.com/nvie/gitflow#initialization)
