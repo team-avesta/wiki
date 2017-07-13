@@ -10,7 +10,6 @@ $ uninstall_oh_my_zsh
 Step 2: Install zsh (linux/ubuntu)
 ```
 $ sudo apt-get update
-$ sudo apt-get upgrade
 $ sudo apt-get install zsh
 ```
 Step 3: Install antigen plugin manager (linux/ubuntu):
