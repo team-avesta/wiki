@@ -44,6 +44,13 @@ antigen theme robbyrussell
 
 # Tell Antigen that you're done.
 antigen apply
+
+# If you come from bash you might have to change your $PATH.
+#export PATH=/home/your_user_name/.npm-packages/bin:$PATH
+
+#if you use nvm for different node version installation then keep the commands related to nvm intact if they are already #present in .zshrc. Uncomment below lines.
+#export NVM_DIR="/home/your_user_name/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
 Step 5: Restart your terminal and let antigen install all the plugins and required packages
 
