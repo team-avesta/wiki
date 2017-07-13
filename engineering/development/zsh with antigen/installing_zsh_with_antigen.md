@@ -52,9 +52,27 @@ antigen apply
 #export NVM_DIR="/home/your_user_name/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ```
-Step 5: Restart your terminal and let antigen install all the plugins and required packages
+Step 5: To make the change permanent from bash to zsh:
 
-Step 6: Install git-flow (linux/ubuntu)
+First off we are going to change the login shell so open a console emulator and type in:
+
+**chsh**
+
+the type in
+
+**/bin/zsh**
+
+This will make zsh your login shell for linux now
+
+Next type
+
+**su** 
+
+enter your password then retype in what you did above this, this will make your default root shell zsh.
+
+Step 6: Restart your terminal and let antigen install all the plugins and required packages
+
+Step 7: Install git-flow (linux/ubuntu)
 ```
 $ sudo apt-get install git-flow
 ```
