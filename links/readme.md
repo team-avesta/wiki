@@ -27,6 +27,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Raspberrypi](#raspberrypi)
 - [Sysops](#sysops)
 - [Logging & Monitoring](#logging&monitoring)
+- [Blockchain](#blockchain)
 
 
 ## Nodejs
@@ -56,6 +57,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [linux-containers-isolation](https://blog.engineyard.com/2015/linux-containers-isolation)
 * [docker-internals](http://docker-saigon.github.io/post/Docker-Internals/)
 * [Docker Container Networks](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks)
+* [Making-security-invisible](https://docs.google.com/presentation/d/1x0DfyC8OxTHsiqf6YRGmqS63CjqCs8-613T_Dzdyi0Q/mobilepresent?slide=id.p) -- guide to secure dockers
 
 
 ## Microservices
@@ -112,6 +114,7 @@ Create a new category if you find that your link doesn't fit into any category.
 ## Web Security
 
 * [web-developer-security-check-list](https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56) -- Web Developer Security Checklist
+* [web-cryptography-api-use-cases](https://www.w3.org/TR/webcrypto-usecases/#keycall)
 
 
 ## Devops
@@ -135,6 +138,7 @@ Create a new category if you find that your link doesn't fit into any category.
 ## Prometheus
 
 * [System-monitoring-with-promethues](https://www.slideshare.net/brianbrazil/devops-ireland-systems-monitoring-with-prometheus) 
+* [Monitoring-with-prometheus-and-docker](https://airtame.engineering/practical-services-monitoring-with-prometheus-and-docker-30abd3cf9603?mkt_tok=eyJpIjoiT1RaaFlXWTNaRFZtTW1FMCIsInQiOiJZdmNLNXJKN1lxaEtWaEJpZnpSYVJ0N3ZvVFRaWmRQVHA5Uk50K0ZIaXQ3ZmNJSGdObzMxVkUrOW9jWWUyamRQYW9YcmE4Tm43czgyQWtBK0JMNkxEeElRWmJVUjJXM05nc2lFZlpONmx0QVdYd0ZzR3BtUEhiQ0pzTnZVN2FCRyJ9)
 
 ## Raspberrypi
 
@@ -154,3 +158,9 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [logging-for-containers](https://www.linux.com/news/learn/kubernetes/2017/2/distributed-logging-containers) -- Distributed Logging for Containers
 * [monitoring-talks](https://techbeacon.com/10-monitoring-talks-every-developer-should-watch) -- 10 monitoring talks that every developer should watch
+
+
+## Blockchain
+
+* [blockchain-intro-video](https://www.youtube.com/watch?v=_160oMzblY8) -- Blockchain Visual Demo
+* [blockchain-mit](http://blockchain.mit.edu/)
