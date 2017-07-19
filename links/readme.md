@@ -139,6 +139,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [System-monitoring-with-promethues](https://www.slideshare.net/brianbrazil/devops-ireland-systems-monitoring-with-prometheus) 
 * [Monitoring-with-prometheus-and-docker](https://airtame.engineering/practical-services-monitoring-with-prometheus-and-docker-30abd3cf9603?mkt_tok=eyJpIjoiT1RaaFlXWTNaRFZtTW1FMCIsInQiOiJZdmNLNXJKN1lxaEtWaEJpZnpSYVJ0N3ZvVFRaWmRQVHA5Uk50K0ZIaXQ3ZmNJSGdObzMxVkUrOW9jWWUyamRQYW9YcmE4Tm43czgyQWtBK0JMNkxEeElRWmJVUjJXM05nc2lFZlpONmx0QVdYd0ZzR3BtUEhiQ0pzTnZVN2FCRyJ9)
+* [high-availability-prometheus-alerting](https://www.robustperception.io/high-availability-prometheus-alerting-and-notification/)
 
 ## Raspberrypi
 
