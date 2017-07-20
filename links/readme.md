@@ -22,11 +22,12 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Web Security](#web-security)
 - [Devops](#devops)
 - [Coreos](#coreos)
-- [Machine Learning](#machinelearning)
+- [Machine Learning & Image Processing](#machinelearning)
 - [Prometheus](#prometheus)
 - [Raspberrypi](#raspberrypi)
 - [Sysops](#sysops)
 - [Logging & Monitoring](#logging&monitoring)
+- [Blockchain](#blockchain)
 
 
 ## Nodejs
@@ -56,6 +57,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [linux-containers-isolation](https://blog.engineyard.com/2015/linux-containers-isolation)
 * [docker-internals](http://docker-saigon.github.io/post/Docker-Internals/)
 * [Docker Container Networks](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks)
+* [Making-security-invisible](https://docs.google.com/presentation/d/1x0DfyC8OxTHsiqf6YRGmqS63CjqCs8-613T_Dzdyi0Q/mobilepresent?slide=id.p) -- guide to secure dockers
 
 
 ## Microservices
@@ -72,10 +74,12 @@ Create a new category if you find that your link doesn't fit into any category.
 * [pg-statefulsets](http://blog.kubernetes.io/2017/02/postgresql-clusters-kubernetes-statefulsets.html?m=1) -- Deploying PostgreSQL Clusters using StatefulSets
 * [ksonnet](http://ksonnet.heptio.com/) -- A Jsonnet library that compiles to Kubernetes YAML
 * [jsonnet-templating-language](https://databricks.com/blog/2017/06/26/declarative-infrastructure-jsonnet-templating-language.html)
+* [hands-on-introduction](http://kubernetesbyexample.com/)
 
 ## AWS
 
 * [awesome-aws](https://github.com/donnemartin/awesome-aws) -- A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.
+* [manage-secrets-for-aws-ecs-apps](https://aws.amazon.com/blogs/compute/managing-secrets-for-amazon-ecs-applications-using-parameter-store-and-iam-roles-for-tasks/?sc_channel=sm&sc_campaign=PAC_Social&sc_publisher=TWITTER&sc_country=Global&sc_geo=GLOBAL&sc_outcome=adoption&sc_content=PAC_0708_ECS_parameter_store_and_IAM_roles&sc_category=Amazon_EC2%20Container%20Service&linkId=39544439)
 
 ## Javascript
 
@@ -110,6 +114,7 @@ Create a new category if you find that your link doesn't fit into any category.
 ## Web Security
 
 * [web-developer-security-check-list](https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56) -- Web Developer Security Checklist
+* [web-cryptography-api-use-cases](https://www.w3.org/TR/webcrypto-usecases/#keycall)
 
 
 ## Devops
@@ -128,10 +133,13 @@ Create a new category if you find that your link doesn't fit into any category.
 ## Machine Learning
 
 * [deep learning courses](https://medium.freecodecamp.org/dive-into-deep-learning-with-these-23-online-courses-bf247d289cc0) -- Dive into Deep Learning with 15 free online courses
+* [tesseract-ocr-with-python](http://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/)
 
 ## Prometheus
 
 * [System-monitoring-with-promethues](https://www.slideshare.net/brianbrazil/devops-ireland-systems-monitoring-with-prometheus) 
+* [Monitoring-with-prometheus-and-docker](https://airtame.engineering/practical-services-monitoring-with-prometheus-and-docker-30abd3cf9603?mkt_tok=eyJpIjoiT1RaaFlXWTNaRFZtTW1FMCIsInQiOiJZdmNLNXJKN1lxaEtWaEJpZnpSYVJ0N3ZvVFRaWmRQVHA5Uk50K0ZIaXQ3ZmNJSGdObzMxVkUrOW9jWWUyamRQYW9YcmE4Tm43czgyQWtBK0JMNkxEeElRWmJVUjJXM05nc2lFZlpONmx0QVdYd0ZzR3BtUEhiQ0pzTnZVN2FCRyJ9)
+* [high-availability-prometheus-alerting](https://www.robustperception.io/high-availability-prometheus-alerting-and-notification/)
 
 ## Raspberrypi
 
@@ -151,3 +159,9 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [logging-for-containers](https://www.linux.com/news/learn/kubernetes/2017/2/distributed-logging-containers) -- Distributed Logging for Containers
 * [monitoring-talks](https://techbeacon.com/10-monitoring-talks-every-developer-should-watch) -- 10 monitoring talks that every developer should watch
+
+
+## Blockchain
+
+* [blockchain-intro-video](https://www.youtube.com/watch?v=_160oMzblY8) -- Blockchain Visual Demo
+* [blockchain-mit](http://blockchain.mit.edu/)
