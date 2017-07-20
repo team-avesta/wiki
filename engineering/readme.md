@@ -13,8 +13,6 @@ All the engineering related materials will be go here.
   - [Cryptography](https://github.com/team-avesta/wiki/blob/master/engineering/development/cryptography/README.md)
   - [Setup zsh with antigen in linux/ubuntu](https://github.com/team-avesta/wiki/blob/master/engineering/development/zsh%20with%20antigen/installing_zsh_with_antigen.md)
 - Databases
-- Devops
-  - [Git workflow](https://github.com/team-avesta/wiki/blob/master/engineering/devops/loadtest/README.md)
-  - [LoadTest](https://github.com/team-avesta/wiki/blob/master/engineering/devops/loadtest/README.md)
-  - [Ansible](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/README.md)
+- [Devops](https://github.com/team-avesta/wiki/tree/master/engineering/devops)
+
 - [Sysops](https://github.com/team-avesta/wiki/tree/master/engineering/sysops)
