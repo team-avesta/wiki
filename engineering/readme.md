@@ -19,4 +19,5 @@ All the engineering related materials will be go here.
   - [Ansible](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/README.md)
   - [How to add more Ip Adresses to the same network card](https://github.com/team-avesta/wiki/blob/master/engineering/devops/AddIP/README.md)
   - [Running BIND dns service in a Docker container](https://github.com/team-avesta/wiki/blob/master/engineering/devops/dnsdocker/README.md)
+  - [isc-dhcp-server](https://github.com/team-avesta/wiki/blob/master/engineering/devops/isc-dhcp-server/README.md)
 - Sysops
