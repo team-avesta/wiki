@@ -252,10 +252,10 @@ If you are a system administrator on a network of almost any size, you may find 
 ## Resources
 
 
-[Wikipedia link for zone file description][12] 
-[Permalink to blog.dnsimple.com/2015/04/common-dns-records][13]
-[Digital Ocean link to introduction to DNS][14]
-[Slashroot Link to DNS tutorial][15]
+* [Wikipedia link for zone file description][12] 
+* [Permalink to blog.dnsimple.com/2015/04/common-dns-records][13]
+* [Digital Ocean link to introduction to DNS][14]
+* [Slashroot Link to DNS tutorial][15]
 
 [1]: http://www.opensource.com
 [2]: https://www.isc.org/downloads/bind/
