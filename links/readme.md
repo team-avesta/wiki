@@ -28,6 +28,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Sysops](#sysops)
 - [Logging & Monitoring](#logging&monitoring)
 - [Blockchain](#blockchain)
+- [Kafka](#kafka)
 
 
 ## Nodejs
@@ -75,6 +76,9 @@ Create a new category if you find that your link doesn't fit into any category.
 * [ksonnet](http://ksonnet.heptio.com/) -- A Jsonnet library that compiles to Kubernetes YAML
 * [jsonnet-templating-language](https://databricks.com/blog/2017/06/26/declarative-infrastructure-jsonnet-templating-language.html)
 * [hands-on-introduction](http://kubernetesbyexample.com/)
+* [kubernetes-initializer-tutorial](https://github.com/kelseyhightower/kubernetes-initializer-tutorial)
+* [project-calico](https://www.projectcalico.org/) -- Networking for Cloud native apps
+* [bestpractices-for-kubernetes](https://speakerdeck.com/thesandlord/kubernetes-best-practices)
 
 ## AWS
 
@@ -88,6 +92,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [nile.js](https://nilejs.com/) -- Scalable peer-to-peer live video streaming
 * [deepstream.io](https://deepstream.io/) -- the open realtime server, a fast, secure and scalable realtime server for mobile, web & iot
 * [horizon.io](https://horizon.io/) -- Horizon is a realtime, open-source backend for JavaScript apps.
+* [turbo.js](https://turbo.github.io/) -- GPGPU JS
+* [state-of-javascript](https://stateofjs.com/)
 
 ## TDD
 
@@ -165,3 +171,9 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [blockchain-intro-video](https://www.youtube.com/watch?v=_160oMzblY8) -- Blockchain Visual Demo
 * [blockchain-mit](http://blockchain.mit.edu/)
+
+
+
+## Kafka
+
+* [kafka-for-service-architectures](https://www.confluent.io/blog/apache-kafka-for-service-architectures/) -- Using Apache Kafka as a Scalable, Event Driven Backbone for Service Architectures
