@@ -251,6 +251,12 @@ If you are a system administrator on a network of almost any size, you may find 
 
 ## Resources
 
+
+* [Wikipedia link for zone file description][12] 
+* [Permalink to blog.dnsimple.com/2015/04/common-dns-records][13]
+* [Digital Ocean link to introduction to DNS][14]
+* [Slashroot Link to DNS tutorial][15]
+
 [1]: http://www.opensource.com
 [2]: https://www.isc.org/downloads/bind/
 [3]: http://www.opensource.com/
@@ -262,5 +268,7 @@ If you are a system administrator on a network of almost any size, you may find 
 [9]: https://en.wikipedia.org/wiki/List_of_DNS_record_types
 [10]: http://www.example.com
 [11]: https://opensource.com/article/17/4/build-your-own-name-server
-
-  
+[12]: https://en.wikipedia.org/wiki/Zone_file
+[13]: https://blog.dnsimple.com/2015/04/common-dns-records/
+[14]: https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts
+[15]: http://www.slashroot.in/what-dns-zone-file-complete-tutorial-zone-file-and-its-contents
