@@ -6,6 +6,9 @@
 
 ### Editing config options
 
+
+##### Editing manually the config options using nano and command line
+
 Opening the config file
 ```
 nano /etc/bind/named.conf.options
@@ -22,9 +25,37 @@ options {
 };
 ```
 
+##### Editing config options using webmin for Dockerized container running BIND server and webmin panel
+
+Login to webmin thru browser using ip:port, where ip is local network ip where webmin docker/process is running and the port at which it is broadcasted. 
+
+```
+example:
+192.168.0.50:10000
+```
+
+This will open a window as follows:
+![img][login]
+
+After we log in successfully, the dashboard opens by default, as shown below:
+![img][dashboard]
+
+To edit the config file we need to go to the webmin server panel, and select BIND DNS server panel as shown below:
+![img][BIND DNS server panel]
 
 
-![Apply Configuration](https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Apply%20configuration.png)
+In the BIND DNS server, we need to click on edit config file option, which will bring us to a Edit config file window, as shown below:
+![img][config1]
+
+In this window it shows us config file is subdivided into 3 sections, we need to edit the named.conf.options file only for changes in options that we added, so we click on the drop down, and select on /etc/bind/named.conf.options and click on edit, as shown below:
+![img][config2]
+
+This opens up the /etc/bind/named.conf.options file for editing in the window, we added the highlighted line "allow-query { any; }; ", after that we click on Save, also we click on apply configuration after save, as shown below:
+![img][config3]
+
+All done we have succesfully edited and applied the configuration to our BIND server on docker container. 
+
+
 
 
 
@@ -196,3 +227,43 @@ www.firstdomainexample.com has address 192.168.10.15
 [1]: https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-an-authoritative-only-dns-server-on-ubuntu-14-04
 [2]: https://wiki.debian.org/Bind9
 [3]: https://lani78.com/2012/07/22/setting-up-a-dns-for-the-local-network-on-the-ubuntu-12-04-precise-pangolin-server
+
+
+
+
+
+
+
+
+
+
+[Apply Configuration]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Apply%20configuration.png
+[BIND DNS server panel]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Bind%20DNS%20Server%20panel%20in%20Servers.png
+[Configuring bootup shutdown]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Configuring%20application%20bootup%20or%20shutdown.png
+[add master zone]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Create%20New%20master%20zone.png
+[dashboard]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Dashboard.png
+[config1]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Editing%20config%20file%201.png
+[config2]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Editing%20config%20file%202.png
+[config3]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Editing%20config%20file%203.png
+[lower panel]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Lower%20panel%20option%20of%20BIND%20DNS%20server.png
+[system panel]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/System%20panel%20options.png
+[view process]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Viewing%20running%20processes.png
+[webmin panel]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Webmin%20panel%20options.png
+[login]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/login.png
+
+
+
+![img][Apply Configuration]
+![img][BIND DNS server panel]
+![img][Configuring bootup shutdown]
+![img][add master zone]
+![img][dashboard]
+![img][config1]
+![img][config2]
+![img][config3]
+![img][lower panel]
+![img][system panel]
+![img][view process]
+![img][webmin panel]
+![img][login]
+![img]
