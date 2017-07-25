@@ -16,7 +16,7 @@ Add allow-query option with any parameter so anyone can query this dns server.
 ```
 options {
 	directory "/var/cache/bind";
-        allow-query { any; };
+    allow-query { any; };  # this line added to allow query from any
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
 };
@@ -24,7 +24,7 @@ options {
 
 
 
-
+![Apply Configuration](https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Apply%20configuration.png)
 
 
 
