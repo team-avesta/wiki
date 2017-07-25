@@ -8,20 +8,20 @@ Sysops tools and articles.
 
 
 1. Basic Networking and TCP\IP model
-  * TCP\IP model
-  * Introduction to IP addresses
-  * [How to add more Ip Adresses to the same network card][2]
+	* TCP\IP model
+	* Introduction to IP addresses
+	* [How to add more Ip Adresses to the same network card][2]
 
 
 2. DHCP
-  * DHCP introduction
-  * [isc-dhcp-server][4] -- Installation and configuration of DHCP server
+	* DHCP introduction
+	* [isc-dhcp-server][4] -- Installation and configuration of DHCP server
 
 
 3. DNS 
-  * [DNS-Introduction][1] -- Introduction to the Domain Name System
-  * [Running BIND dns service in a Docker container][3]
-  * [Dns Configuration and adding dns entries][5]
+	* [DNS-Introduction][1] -- Introduction to the Domain Name System
+	* [Running BIND dns service in a Docker container][3]
+	* [Dns Configuration and adding dns entries][5]
 
 
 

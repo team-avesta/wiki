@@ -36,7 +36,7 @@ docker run --name bind -d --restart=always \
   sameersbn/bind:9.9.5-20170626
 ```
 This command starts a docker container which listens for dns requests, on hosts ip on ports 53/tcp, 53/udp and 10000/tcp.
-*Alternatively, you can use the sample [docker-compose.yml](https://github.com/sameersbn/docker-bind/blob/master/docker-compose.yml "source docker-compose.yml file") file to start the container using [Docker Compose](https://docs.docker.com/compose/)*
+*Alternatively, you can use the sample [docker-compose.yml](https://github.com/sameersbn/docker-bind/blob/master/docker-compose.yml "Github original source docker-compose.yml file") file to start the container using [Docker Compose](https://docs.docker.com/compose/)*
 
 When the container is started the [Webmin](http://www.webmin.com/) service is also started and is accessible from the web browser at https://localhost:10000. Login to Webmin with the username `root` and password `password`. Specify `--env ROOT_PASSWORD=secretpassword` on the `docker run` command to set a password of your choosing.
 
