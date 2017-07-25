@@ -4,7 +4,7 @@
 
 
 
-### Editing config options
+## Editing config options
 
 
 ##### Editing manually the config options using nano and command line
@@ -19,7 +19,7 @@ Add allow-query option with any parameter so anyone can query this dns server.
 ```
 options {
 	directory "/var/cache/bind";
-    allow-query { any; };  # this line added to allow query from any
+    allow-query { any; };  # this line added to allow query from any client
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
 };
@@ -34,7 +34,7 @@ example:
 192.168.0.50:10000
 ```
 
-This will open a window as follows:
+This will open a window as follows(My default login id is root and password is password):
 ![img][login]
 
 After we log in successfully, the dashboard opens by default, as shown below:
@@ -50,7 +50,7 @@ In the BIND DNS server, we need to click on edit config file option, which will 
 In this window it shows us config file is subdivided into 3 sections, we need to edit the named.conf.options file only for changes in options that we added, so we click on the drop down, and select on /etc/bind/named.conf.options and click on edit, as shown below:
 ![img][config2]
 
-This opens up the /etc/bind/named.conf.options file for editing in the window, we added the highlighted line "allow-query { any; }; ", after that we click on Save, also we click on apply configuration after save, as shown below:
+This opens up the /etc/bind/named.conf.options file for editing in the window, we added the highlighted line allow-query { any; }; ", after that we click on Save, also we click on apply configuration after save, as shown below:
 ![img][config3]
 
 All done we have succesfully edited and applied the configuration to our BIND server on docker container. 
@@ -60,18 +60,27 @@ All done we have succesfully edited and applied the configuration to our BIND se
 
 
 
-## Adding dns entries manually 
+## Adding dns entries 
+
+    We can add dns entries using cmdline and a text editor like nano, as well as using a GUI based application. This article describes 2 methods to add how to add entries, 
+
+    1. Manually using cmdline and nano
+    2. Using GUI webmin running in browser for our dockerized container which is running webmin and DNS server 
+
+### Manual CMDline method 
 [source][3]
 
 
-#### Define the zones for the local domain:
+###### Step 1 
+
+Define the zones for the local domain, we add zone name, zone type and zone database file location in "/etc/bind/named.conf.local" as per syntax shown in below example.
 
 Editing local zone file
 ```
 sudo nano /etc/bind/named.conf.local
 ```
 
-#### Add a zone for the local domain in the file opened
+Add a zone, zone type and zone file database location for the local domain in the file opened
 
 ```
 zone "home.lan" IN {
@@ -83,13 +92,17 @@ zone "home.lan" IN {
 
 
 
+##### Step 2
 
-#### Create the zones directory:
+Now since we already added the zone file database location, we also need to create the same file and directory, after we create the file we edit it as described below 
+
+
+Create the zones directory:
 ```
 sudo mkdir /etc/bind/zones
 ```
 
-#### Configure the local domain:
+Configure the local domain:
 ```
 sudo nano /etc/bind/zones/home.lan.db
 ```
@@ -134,12 +147,14 @@ xbox         IN A 192.168.0.3
 
 
 
+##### Step 3
 
-### Restart services to use the new settings:
+Now for the new zone settings to take effect we need to restart the BIND services.
+We can restart the whole docker or go inside docker and restart the bind service only. Since docker is only running webmin and BIND, we can restart the docker using (dockername is bind here, replace it with your docker name):
 
-Restart bind for changes to take effect.
-We can restart the whole docker or go inside docker and restart the bind service only.
-
+```
+sudo docker restart bind
+```
 
 
 
