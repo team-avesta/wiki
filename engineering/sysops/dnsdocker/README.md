@@ -113,7 +113,7 @@ docker exec -it bind bash
 
 ## Running the docker container on a separate ip address assigned to the same NIC. 
 
-  To run a BIND docker on a host that already uses its ports upd/53 tcp/53 tcp/10000, we can either remap ports for either services that use those specific ports, or add a secondary IP address to our network card on which we forward the docker ports. To add a secondary Ip we can use legacy method "ifconfig" or the new method " ip addr". In our case we have used the legacy method. 
+  To run a BIND docker on a host that already uses its ports upd/53 tcp/53 tcp/10000, we can either remap ports for either services that use those specific ports, or add a secondary IP address to our network card on which we forward the docker ports. To add a secondary Ip we can use legacy method "ifconfig" or the new method "ip addr". In our case we have used the legacy method. So we basically assign multiple IP addresses to a single NIC for use of same ports for different applications running over different IP addresses, to avoid application conflicts when using same IP and same port.
   We add a new temporary ip address to our Network Interface Card, and run our Docker on a separate IP address.[link](https://github.com/team-avesta/wiki/blob/master/engineering/devops/AddIP/README.md "Adding additional IP Addresses to a Network Interface Card on Ubuntu")
   In this example we added a temporary IP alias, and running docker on it. Any client in our network that requires dns services can access it from 192.168.1.50. 
 
