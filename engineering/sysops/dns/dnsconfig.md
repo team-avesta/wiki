@@ -317,6 +317,11 @@ www.firstdomainexample.com has address 192.168.10.15
 
 
 
+to do  
+
+add link for dhcp how to change dns
+
+
 
 ### Additional Reference Resources for info
 
