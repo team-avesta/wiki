@@ -317,9 +317,9 @@ www.firstdomainexample.com has address 192.168.10.15
 
 
 
-to do  
+#### to do  
 
-add link for dhcp how to change dns
+* add link for dhcp how to change dns
 
 
 
