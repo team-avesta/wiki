@@ -1,4 +1,4 @@
-# Introduction
+# Running a BIND server in Docker container
 [Source](https://github.com/sameersbn/docker-bind#sameersbnbind995-20170626 "Permalink to Dockerize BIND DNS server with webmin for DNS administration by sameersbn on github")
 
 
@@ -35,8 +35,8 @@ docker run --name bind -d --restart=always \
   --volume /srv/docker/bind:/data \
   sameersbn/bind:9.9.5-20170626
 ```
-
-*Alternatively, you can use the sample [docker-compose.yml](docker-compose.yml) file to start the container using [Docker Compose](https://docs.docker.com/compose/)*
+This command starts a docker container which listens for dns requests, on hosts ip on ports 53/tcp, 53/udp and 10000/tcp.
+*Alternatively, you can use the sample [docker-compose.yml](https://github.com/sameersbn/docker-bind/blob/master/docker-compose.yml "Github original source docker-compose.yml file") file to start the container using [Docker Compose](https://docs.docker.com/compose/)*
 
 When the container is started the [Webmin](http://www.webmin.com/) service is also started and is accessible from the web browser at https://localhost:10000. Login to Webmin with the username `root` and password `password`. Specify `--env ROOT_PASSWORD=secretpassword` on the `docker run` command to set a password of your choosing.
 
@@ -57,15 +57,14 @@ docker run --name bind -it --rm \
 
 ## Persistence
 
-For the BIND to preserve its state across container shutdown and startup you should mount a volume at `/data`.
+For the BIND to preserve its state across container shutdown and startup you should mount a volume at `/data`. We do this by default, but in case we have not done it to start with we can create the docker local system folder which will be mounted in the docker at /data using the following command.
 
 > *The [Quickstart](#quickstart) command already mounts a volume for persistence.*
 
-SELinux users should update the security context of the host mountpoint so that it plays nicely with Docker:
 
 ```bash
 mkdir -p /srv/docker/bind
-chcon -Rt svirt_sandbox_file_t /srv/docker/bind
+
 ```
 
 # Maintenance
@@ -110,18 +109,23 @@ docker exec -it bind bash
 
 
 
-# example usage
+# Test case uses
 
+## Running the docker container on a separate ip address assigned to the same NIC. 
 
-  [We add a new temporary ip address to our Network Interface Card, and run our Docker on a separate IP address.](https://github.com/team-avesta/wiki/blob/master/engineering/devops/AddIP/README.md 
-  "Adding additional IP Addresses to a Network Interface Card on Ubuntu")
-
+  To run a BIND docker on a host that already uses its ports upd/53 tcp/53 tcp/10000, we can either remap ports for either services that use those specific ports, or add a secondary IP address to our network card on which we forward the docker ports. To add a secondary Ip we can use legacy method "ifconfig" or the new method "ip addr". In our case we have used the legacy method. So we basically assign multiple IP addresses to a single NIC for use of same ports for different applications running over different IP addresses, to avoid application conflicts when using same IP and same port.
+  We add a new temporary ip address to our Network Interface Card, and run our Docker on a separate IP address.[link](https://github.com/team-avesta/wiki/blob/master/engineering/devops/AddIP/README.md "Adding additional IP Addresses to a Network Interface Card on Ubuntu")
+  In this example we added a temporary IP alias, and running docker on it. Any client in our network that requires dns services can access it from 192.168.1.50. 
 
 ```bash
 
 ipconfig eth0:1 192.168.1.50
 
-docker run --name bind -d --restart=always --publish 192.168.1.50:53:53/tcp --publish 192.168.1.50:53:53/udp --publish 192.168.1.50:10000:10000/tcp  --volume /srv/docker/bind:/data sameersbn/bind:9.9.5-20170626
+docker run --name bind -d --restart=always \
+--publish 192.168.1.50:53:53/tcp \
+--publish 192.168.1.50:53:53/udp \
+--publish 192.168.1.50:10000:10000/tcp \
+--volume /srv/docker/bind:/data sameersbn/bind:9.9.5-20170626
 
 ```
 

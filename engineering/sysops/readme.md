@@ -6,11 +6,30 @@ Sysops tools and articles.
 
 #### Articles
 
-* [DNS-Introduction][1] -- Introduction to the Domain Name System
-* [How to add more Ip Adresses to the same network card][2]
-* [Running BIND dns service in a Docker container][3]
-* [isc-dhcp-server][4] -- Installation and configuration of DHCP server
-* [Dns Configuration and adding dns entries][5]
+
+1. Basic Networking and TCP\IP model
+	* TCP\IP model
+	* Introduction to IP addresses
+	* [How to add more Ip Adresses to the same network card][2]
+
+
+2. DHCP
+	* DHCP introduction
+	* [isc-dhcp-server][4] -- Installation and configuration of DHCP server
+
+
+3. DNS 
+	* [DNS-Introduction][1] -- Introduction to the Domain Name System
+	* [Running BIND dns service in a Docker container][3]
+	* [Dns Configuration and adding dns entries][5]
+
+
+
+##### to do
+* add articles for TCP\IP model
+* Introduction to IP addresses 
+* DHCP introduction
+
 
 [1]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns.md
 [2]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/AddIP/README.md
