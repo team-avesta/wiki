@@ -270,7 +270,33 @@ We apply configuration from BINS DNS server page.
 
 # Testing the dns entries
 
-Now from any other client machine which is using the dns service which we configured, we can check if dns resolution is working.
+We have two ways of testing using host command, using a specific dns server on the network or using the default dns server allocated to client by dhcp server.
+
+
+##### Using a dns server on the network which is not given by dhcp
+
+To use a random dns server, we use the syntax " host domainname dnsserveraddress"
+
+test command
+
+
+```
+host firstdomainexample.com 192.168.0.50
+```
+output
+```
+Using domain server:
+Name: 192.168.0.50
+Address: 192.168.0.50#53
+Aliases:
+
+firstdomainexample.com has address 192.168.10.10
+
+```
+
+##### Using a dns server assigned to client by dhcp server
+
+In this case our dhcp server allocated the dns server 192.168.0.50 as default primary dns server. Now from any other client machine which is using the dns service which we configured, we can check if dns resolution is working. In this case we use the syntax " host domainname"
 
 test command
 
