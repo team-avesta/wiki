@@ -6,7 +6,7 @@ Devops tools and articles.
 
 #### Articles
 
-  - [Git workflow](https://github.com/team-avesta/wiki/blob/master/engineering/devops/loadtest/README.md)
+  - [Git workflow](https://github.com/team-avesta/wiki/blob/master/engineering/devops/git/GitWorkflow.md)
   - [LoadTest](https://github.com/team-avesta/wiki/blob/master/engineering/devops/loadtest/README.md)
   - [Ansible](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/README.md)
 
