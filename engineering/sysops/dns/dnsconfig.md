@@ -50,7 +50,11 @@ In the BIND DNS server, we need to click on edit config file option, which will 
 In this window it shows us config file is subdivided into 3 sections, we need to edit the named.conf.options file only for changes in options that we added, so we click on the drop down, and select on /etc/bind/named.conf.options and click on edit, as shown below:
 ![img][config2]
 
-This opens up the /etc/bind/named.conf.options file for editing in the window, we added the highlighted line allow-query { any; }; ", after that we click on Save, also we click on apply configuration after save, as shown below:
+This opens up the /etc/bind/named.conf.options file for editing in the window, we added the highlighted line 
+```
+allow-query { any; }; 
+```
+after that we click on Save, also we click on apply configuration after save, as shown below:
 ![img][config3]
 
 All done we have succesfully edited and applied the configuration to our BIND server on docker container. 
@@ -71,7 +75,7 @@ We can add dns entries using cmdline and a text editor like nano, as well as usi
 [source][3]
 
 
-###### Step 1 
+##### Step 1 
 
 Define the zones for the local domain, we add zone name, zone type and zone database file location in "/etc/bind/named.conf.local" as per syntax shown in below example.
 
@@ -162,6 +166,7 @@ sudo docker restart bind
 
 ## Adding dns entries through WEBMIN log in using browser
 
+##### Step 1
 Login to webmin thru browser using ip:port, where ip is local network ip where webmin docker/process is running and the port at which it is broadcasted. 
 
 ```
@@ -172,17 +177,25 @@ example:
 ![img][login]
 
 
-This will open a login window, the default user id and password are as configured, in our case they are root and password, logged in shows the GUI panel. It has Dashboard for stats and webmin panel for controlling the System and applications running in webmin. The Webmin panel is for configuring webmin default options and interface. THe System panel is for starting stopping processes, editing configurations and log file parameters, as well as backing up filesystems. It can also be used to update software packages. The third panel is Server panel, which has all the current running server applications BIND is in this tab under the name BIND DNS Server, clicking on it we entrr the BIND DNS server page, here we can change all the BIND configurations as well as add\edit\delete dns entries directly through GUI.
+This will open a login window, the default user id and password are as configured, in our case they are root and password, logged in shows the GUI panel. It has Dashboard for stats and webmin panel for controlling the System and applications running in webmin. The Webmin panel is for configuring webmin default options and interface. The System panel is for starting stopping processes, editing configurations and log file parameters, as well as backing up filesystems. It can also be used to update software packages. 
 
 ![img][webmin panel]
 ![img][system panel]
+
+##### Step 2
+
+The third panel is Server panel, which has all the current running server applications BIND is in this tab under the name BIND DNS Server, clicking on it we entrr the BIND DNS server page, here we can change all the BIND configurations as well as add\edit\delete dns entries directly through GUI.
+
 ![img][BIND DNS server panel]
 
+##### Step 3
 
 Bind server should be pre configured for initial use till here, we can start with adding dns entries for a domain name. To start with that, we go to Existing DNS zones and click on Create Master zone. This takes us to a page for Creating Master Zone. 
 
 ![img][add master zone]
 
+
+After selecting options as described above, click create for making a new masterzone for domain name "firstdomainexample.com".
 
 * Zone type:  Forward
 * Domain name/ Network:  firstdomainexample.com
@@ -194,9 +207,19 @@ Bind server should be pre configured for initial use till here, we can start wit
 * Refresh time: default
 * Expiry time: default
 
-After selecting options as described above, click create for making a new masterzone for domain name "firstdomainexample.com". This takes us to the editing page of the newly created master zone. To add ip addresses to this domain name, we select the Address option, which takes us to Address records page, this will display any previous records if any, in our case will not show any old records, only option to add new ones.
+##### Step 4
+
+This takes us to the editing page of the newly created master zone. To add ip addresses to this domain name, we select the Address option, which takes us to Address records page, this will display any previous records if any, in our case will not show any old records, only option to add new ones.
+
+![img][edit master zone1]
+![img][edit master zone2]
+
+
+##### Step 5
 
 Adding new records
+
+![img][add address1]
 
 * Name: (leave blank for default address in our case firstdomainexample.com)
 * Address: 192.168.10.10
@@ -205,7 +228,13 @@ Adding new records
 
 Click Create.
 This creates a ip address for domain name "firstdomainexample.com" as 192.168.10.10
+
+
+##### Step 6
+
 We add another ip address now.
+
+![img][add address2]
 
 * Name: www
 * Address: 192.168.10.15
@@ -214,7 +243,28 @@ We add another ip address now.
 
 Click Create.
 This creates a ip address for domain name ``` "www.firstdomainexample.com" ``` as 192.168.10.15
-And so on we can create more ip addresses for subdomains if needed. Click on apply zone and apply configuration for configuration changes to take effect. We can also restart bind from system services for the changes to take effect.
+
+
+##### Step 7
+
+We add our last ip address now.
+
+![img][add address3]
+
+* Name: host1
+* Address: 192.168.10.21
+* Update reverse: (default)
+* Time-to-live: (default)
+
+Click Create.
+This creates a ip address for domain name ``` "host1.firstdomainexample.com" ``` as 192.168.10.21
+And so on we can create more ip addresses for subdomains if needed. Click on apply zone and apply configuration for configuration changes to take effect. We can also restart bind from system services for the changes to take effect. 
+
+
+##### Step 7
+
+We apply configuration from BINS DNS server page.
+![img][Apply Configuration]
 
 
 
@@ -275,20 +325,9 @@ www.firstdomainexample.com has address 192.168.10.15
 [view process]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Viewing%20running%20processes.png
 [webmin panel]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/Webmin%20panel%20options.png
 [login]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/login.png
-
-
-
-![img][Apply Configuration]
-![img][BIND DNS server panel]
-![img][Configuring bootup shutdown]
-![img][add master zone]
-![img][dashboard]
-![img][config1]
-![img][config2]
-![img][config3]
-![img][lower panel]
-![img][system panel]
-![img][view process]
-![img][webmin panel]
-![img][login]
-![img]
+[add address1]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/add%20address1.png
+[add address2]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/add%20address2.png
+[add address3]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/add%20address3.png
+[edit master zone1]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/edit%20master%20zone1.png
+[edit master zone2]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/edit%20master%20zone2.png
+[create master zone]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/Images/create%20master%20zone.png
