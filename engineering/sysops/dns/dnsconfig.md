@@ -62,10 +62,10 @@ All done we have succesfully edited and applied the configuration to our BIND se
 
 ## Adding dns entries 
 
-    We can add dns entries using cmdline and a text editor like nano, as well as using a GUI based application. This article describes 2 methods to add how to add entries, 
+We can add dns entries using cmdline and a text editor like nano, as well as using a GUI based application. This article describes 2 methods to add how to add entries, 
 
-    1. Manually using cmdline and nano
-    2. Using GUI webmin running in browser for our dockerized container which is running webmin and DNS server 
+1. Manually using cmdline and nano
+2. Using GUI webmin running in browser for our dockerized container which is running webmin and DNS server 
 
 ### Manual CMDline method 
 [source][3]
@@ -169,9 +169,19 @@ example:
 192.168.0.50:10000
 ```
 
+![img][login]
+
+
 This will open a login window, the default user id and password are as configured, in our case they are root and password, logged in shows the GUI panel. It has Dashboard for stats and webmin panel for controlling the System and applications running in webmin. The Webmin panel is for configuring webmin default options and interface. THe System panel is for starting stopping processes, editing configurations and log file parameters, as well as backing up filesystems. It can also be used to update software packages. The third panel is Server panel, which has all the current running server applications BIND is in this tab under the name BIND DNS Server, clicking on it we entrr the BIND DNS server page, here we can change all the BIND configurations as well as add\edit\delete dns entries directly through GUI.
 
+![img][webmin panel]
+![img][system panel]
+![img][BIND DNS server panel]
+
+
 Bind server should be pre configured for initial use till here, we can start with adding dns entries for a domain name. To start with that, we go to Existing DNS zones and click on Create Master zone. This takes us to a page for Creating Master Zone. 
+
+![img][add master zone]
 
 
 * Zone type:  Forward
