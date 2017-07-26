@@ -261,7 +261,7 @@ This creates a ip address for domain name ``` "host1.firstdomainexample.com" ```
 And so on we can create more ip addresses for subdomains if needed. Click on apply zone and apply configuration for configuration changes to take effect. We can also restart bind from system services for the changes to take effect. 
 
 
-##### Step 7
+##### Step 8
 
 We apply configuration from BINS DNS server page.
 ![img][Apply Configuration]
