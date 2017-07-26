@@ -7,6 +7,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 **Table of Contents**
 
+- [Cloudnative](#cloudnative)
 - [Nodejs](#nodejs)
 - [Angular Js](#angular-js)
 - [React Js](#react-js)
@@ -30,6 +31,12 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Blockchain](#blockchain)
 - [Kafka](#kafka)
 
+
+## Cloudnative
+
+* [distributed-logging-pdf](https://schd.ws/hosted_files/cloudnativeeu2017/9c/CloudNativeCon_Europe_2017_distributed_logging.pdf) -- The patterns of distributed logging and containers
+* [CockroachDB-cloudnative-db](https://schd.ws/hosted_files/cloudnativeeu2017/43/Building%20a%20Cloud-Native%20SQL%20Database.pdf)
+* [microservice-demo](https://github.com/microservices-demo)
 
 ## Nodejs
 
