@@ -98,7 +98,10 @@ auto wlan0
     netmask 255.255.255.0
     up     /sbin/iwconfig wlan0 mode TTTTTT && /sbin/iwconfig wlan0 enc
 restricted && /sbin/iwconfig wlan0 key [Y] XXXXXXXX && /sbin/iwconfig
-wlan0 essid SSSSSSSS ; these are wireless lan parameters which describe SSID name, password and transmission mode
+wlan0 essid SSSSSSSS ; 
+#these are wireless lan parameters which 
+#describe SSID name, password and transmission mode
+
 
 auto eth1
 
@@ -124,7 +127,7 @@ INTERFACES="wlan0 eth0"
 nano -w /etc/dhcp/dhcpd.conf
 ```
 
-This example explains use of 2 different subnets and how we configure them, it is similar to our single subnet configuration except here we have added static host ip for bla1, bla2 on first subnet and bla3 for second subnet. Also added hardware ethernet address for the server to know which client to assign the static ip.  
+This example explains use of 2 different subnets and how we configure them, it is similar to our single subnet configuration except here we have added static host ip for bla1, bla2 on first subnet and bla3 for second subnet. Also in the config file we added hardware ethernet address for the server to know which client to assign the static ip.  
 
 ```
 ddns-update-style none;
@@ -136,8 +139,8 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
         option subnet-mask              255.255.255.0;
         option broadcast-address        192.168.1.255;
         option domain-name-servers      194.168.4.100;
-        option ntp-servers              192.168.1.1;
-        option netbios-name-servers     192.168.1.1;
+        option ntp-servers              192.168.1.1; 
+        option netbios-name-servers     192.168.1.1; we use netbios-name-servers for legacy backward support
         option netbios-node-type 2;
         default-lease-time 86400;
         max-lease-time 86400;
@@ -176,7 +179,7 @@ subnet  10.152.187.0 netmask 255.255.255.0 {
 
 ### Additional Links for Reference
 
-[Tldp foundation link for DHCP server set up](http://www.tldp.org/HOWTO/DHCP/x369.html)
-[Link for dhcp3 server for reference only it is now obselete and has been replaced by isc-dhcp-server](https://help.ubuntu.com/community/dhcp3-server)
-[FreeBSD page for detailed description of config options](https://www.freebsd.org/cgi/man.cgi?query=dhcpd.conf&sektion=5&apropos=0&manpath=FreeBSD+9.0-RELEASE+and+Ports)
+* [Tldp foundation link for DHCP server set up](http://www.tldp.org/HOWTO/DHCP/x369.html)
+* [Link for dhcp3 server for reference only it is now obselete and has been replaced by isc-dhcp-server](https://help.ubuntu.com/community/dhcp3-server)
+* [FreeBSD page for detailed description of config options](https://www.freebsd.org/cgi/man.cgi?query=dhcpd.conf&sektion=5&apropos=0&manpath=FreeBSD+9.0-RELEASE+and+Ports)
 
