@@ -49,7 +49,8 @@ range 192.168.1.150 192.168.1.200;
 
 ```
 
-This will result in the DHCP server giving a client an IP address from the range 192.168.1.10-192.168.1.100 or 192.168.1.150-192.168.1.200. It will lease an IP address for 600 seconds if the client doesn't ask for a specific time frame. Otherwise the maximum (allowed) lease will be 7200 seconds. The server will also "advise" the client that it should use 255.255.255.0 as its subnet mask, 192.168.1.255 as its broadcast address, 192.168.1.254 as the router/gateway and 192.168.1.1 and 192.168.1.2 as its DNS servers. Here 192.168.1.1 is primary server as it is first in the list and in case the client is not able to reach the primary server it will send its query to the secondary server which is 192.168.1.2, further dns servers can be added and client will query the latter ones if former ones are down.
+This will result in the DHCP server giving a client an IP address from the range 192.168.1.10-192.168.1.100 or 192.168.1.150-192.168.1.200. It will lease an IP address for 600 seconds if the client doesn't ask for a specific time frame. Otherwise the maximum (allowed) lease will be 7200 seconds. Clients usually renew lease at 50% of the lease time. The clients that are disconnected and did not renew lease may lose their ip based on the how big the client pool is versus the IP pool we have for allocation. The server will also "advise" the client that it should use 255.255.255.0 as its subnet mask, 192.168.1.255 as its broadcast address, 192.168.1.254 as the router/gateway and 192.168.1.1 and 192.168.1.2 as its DNS servers. Here 192.168.1.1 is primary server as it is first in the list and in case the client is not able to reach the primary server it will send its query to the secondary server which is 192.168.1.2, further dns servers can be added and client will query the latter ones if former ones are down.
+
 
 
 ## Start and stop service
@@ -182,4 +183,6 @@ subnet  10.152.187.0 netmask 255.255.255.0 {
 * [Tldp foundation link for DHCP server set up](http://www.tldp.org/HOWTO/DHCP/x369.html)
 * [Link for dhcp3 server for reference only it is now obselete and has been replaced by isc-dhcp-server](https://help.ubuntu.com/community/dhcp3-server)
 * [FreeBSD page for detailed description of config options](https://www.freebsd.org/cgi/man.cgi?query=dhcpd.conf&sektion=5&apropos=0&manpath=FreeBSD+9.0-RELEASE+and+Ports)
-
+* [DHCP lease overview link](http://www.tcpipguide.com/free/t_DHCPLeaseLifeCycleOverviewAllocationReallocationRe-2.htm)
+* DHCP Client States in the Lease Process [link1](https://technet.microsoft.com/en-us/library/cc958935.aspx) [link2](http://www.thenetworkencyclopedia.com/entry/dynamic-host-configuration-protocol-dhcp/)
+* [DHCP lease renewal](https://technet.microsoft.com/en-us/library/cc958919.aspx)
