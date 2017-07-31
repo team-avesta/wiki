@@ -14,7 +14,7 @@ Sysops tools and articles.
 
 
 2. DHCP
-	* DHCP introduction
+	* [Introduction to DHCP basics and Terminology][7]
 	* [isc-dhcp-server][4] -- Installation and configuration of DHCP server
 
 
@@ -37,3 +37,4 @@ Sysops tools and articles.
 [4]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/isc-dhcp-server/README.md
 [5]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/dnsconfig.md
 [6]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dnsdocker/query.md
+[7]: https://github.com/team-avesta/wiki/tree/master/engineering/sysops/dhcp#introduction-to-dhcp-basics-and-terminology

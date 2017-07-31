@@ -59,7 +59,7 @@ This message is sent by the DHCP client in case it wants to terminate the lease 
 
 Now we’ve looked at the steps involved, below shows a simple diagram using the steps above as to how DHCP commonly works.
 
-![dhcp1](https://github.com/team-avesta/wiki/tree/master/engineering/sysopsdhcp/Images/dhcp1.png)
+![dhcp1](https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dhcp/Images/dhcp1.png)
 
  
 
