@@ -22,7 +22,7 @@ Sysops tools and articles.
 	* [DNS-Introduction][1] -- Introduction to the Domain Name System
 	* [Running BIND dns service in a Docker container][3]
 	* [Dns Configuration and adding dns entries][5]
-
+	* [Load Testing DNS using DNSPerf][6] 
 
 
 ##### to do
@@ -36,3 +36,4 @@ Sysops tools and articles.
 [3]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dnsdocker/README.md
 [4]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/isc-dhcp-server/README.md
 [5]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/dnsconfig.md
+[6]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dnsdocker/query.md
