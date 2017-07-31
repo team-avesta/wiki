@@ -358,7 +358,7 @@ Statistics:
 
   Average Latency (s):  0.001538 (min 0.000348, max 0.160103)
   Latency StdDev (s):   0.002761
-
+```
 
 
 
@@ -370,5 +370,5 @@ Statistics:
 
 
 
-[1]:https://github.com/cobblau/dnsperf
+[1]: https://github.com/cobblau/dnsperf
 
