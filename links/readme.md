@@ -73,6 +73,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [awesome-microservices](https://github.com/mfornos/awesome-microservices/blob/master/README.md#platforms) -- A curated list of Microservice Architecture related principles and technologies.
 * [calling-your-serives](http://blog.christianposta.com/microservices/the-hardest-part-of-microservices-calling-your-services/) -- The Hardest Part of Microservices: Calling Your Services
 * [Microservices with stateful streams](https://www.youtube.com/watch?v=c5sS1dB61Rs) -- Rethinking Microservices with Stateful Streams by Ben Stopford
+* [grpc-loadbalancing](https://grpc.io/blog/loadbalancing)
+* [grpc-production-examples-in-go])(https://about.sourcegraph.com/go/grpc-in-production-alan-shreve)
 
 ## Kubernetes
 
@@ -86,6 +88,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [kubernetes-initializer-tutorial](https://github.com/kelseyhightower/kubernetes-initializer-tutorial)
 * [project-calico](https://www.projectcalico.org/) -- Networking for Cloud native apps
 * [bestpractices-for-kubernetes](https://speakerdeck.com/thesandlord/kubernetes-best-practices)
+* [kubernetes-zop-stack](https://blog.codedellemc.com/2017/07/25/standing-zop-stack-kubernetes/?cmp=soc-cor-glbl-us-sprinklr-TWITTER--codeDellEMC-1001768203) -- Standing Up a ZOP Stack in Kubernetes
 
 ## AWS
 
@@ -135,6 +138,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [evolution-of-code-deploy](https://redditblog.com/2017/06/02/the-evolution-of-code-deploys-at-reddit/) -- The Evolution of Code Deploys at Reddit
 * [claudiajs](https://claudiajs.com/) -- Claudia makes it easy to deploy Node.js projects to AWS Lambda and API Gateway
 * [ci-with-node-docker](https://pusher.com/sessions/meetup/london-node-user-group/speeding-up-ci-with-node-and-docker) -- Tips for running faster builds with NodeJS and Docker.
+* [terraform-dashboard](https://github.com/camptocamp/terraboard)
 
 ## Coreos
 
