@@ -28,7 +28,7 @@ Sysops tools and articles.
 ##### to do
 * add articles for TCP\IP model
 * Introduction to IP addresses 
-* DHCP introduction
+* add prerequisites where applicable
 
 
 [1]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns.md
