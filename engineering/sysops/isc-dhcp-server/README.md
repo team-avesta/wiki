@@ -20,6 +20,8 @@ You also need to edit /etc/default/isc-dhcp-server to specify the interfaces dhc
 
 Also, you have to assign a static ip to the interface that you will use for dhcp. If you will use eth0 for providing addresses in the 192.168.1.x subnet then you should assign for instance ip 192.168.1.1 to the eth0 interface using NetworkManager. Without this step you will get an error from dhcpd when starting the service.
 
+[Linux academy link to Introduction to DHCP](https://linuxacademy.com/howtoguides/posts/show/topic/13613-introduction-to-dhcp)
+
 
 # Configuration
 
@@ -47,7 +49,8 @@ range 192.168.1.150 192.168.1.200;
 
 ```
 
-This will result in the DHCP server giving a client an IP address from the range 192.168.1.10-192.168.1.100 or 192.168.1.150-192.168.1.200. It will lease an IP address for 600 seconds if the client doesn't ask for a specific time frame. Otherwise the maximum (allowed) lease will be 7200 seconds. The server will also "advise" the client that it should use 255.255.255.0 as its subnet mask, 192.168.1.255 as its broadcast address, 192.168.1.254 as the router/gateway and 192.168.1.1 and 192.168.1.2 as its DNS servers.
+This will result in the DHCP server giving a client an IP address from the range 192.168.1.10-192.168.1.100 or 192.168.1.150-192.168.1.200. It will lease an IP address for 600 seconds if the client doesn't ask for a specific time frame. Otherwise the maximum (allowed) lease will be 7200 seconds. Clients usually renew lease at 50% of the lease time. The clients that are disconnected and did not renew lease may lose their ip based on the how big the client pool is versus the IP pool we have for allocation. The server will also "advise" the client that it should use 255.255.255.0 as its subnet mask, 192.168.1.255 as its broadcast address, 192.168.1.254 as the router/gateway and 192.168.1.1 and 192.168.1.2 as its DNS servers. Here 192.168.1.1 is primary server as it is first in the list and in case the client is not able to reach the primary server it will send its query to the secondary server which is 192.168.1.2, further dns servers can be added and client will query the latter ones if former ones are down.
+
 
 
 ## Start and stop service
@@ -57,9 +60,11 @@ This will result in the DHCP server giving a client an IP address from the range
  sudo service isc-dhcp-server start
  sudo service isc-dhcp-server stop 
 ```
+We need to restart the server for changes to take effect. It can be done by a single restart command or a combination of start\stop.
 
 
-# dhcp3-server and multiple interfaces
+
+# isc-dhcp-server and multiple interfaces
 
 multiple interfaces example
 
@@ -70,6 +75,8 @@ multiple interfaces example
 ```
 nano -w /etc/network/interfaces
 ```
+
+Here we edit the interface files for 2 different subnets over 2 Network cards, using this following example. 
 
 ```
 auto lo
@@ -92,7 +99,10 @@ auto wlan0
     netmask 255.255.255.0
     up     /sbin/iwconfig wlan0 mode TTTTTT && /sbin/iwconfig wlan0 enc
 restricted && /sbin/iwconfig wlan0 key [Y] XXXXXXXX && /sbin/iwconfig
-wlan0 essid SSSSSSSS
+wlan0 essid SSSSSSSS ; 
+#these are wireless lan parameters which 
+#describe SSID name, password and transmission mode
+
 
 auto eth1
 
@@ -104,6 +114,7 @@ auto eth1
 nano -w /etc/default/isc-dhcp-server
 ```
 
+We edit this defaults file to edit the default NIC's which we want to use, here we use 2 NIC's in the following example
 
 ```
 INTERFACES="wlan0 eth0"
@@ -114,9 +125,10 @@ INTERFACES="wlan0 eth0"
 ### Configure Subnet
 
 ```
-nano -w /etc/dhcp3/dhcpd.conf
+nano -w /etc/dhcp/dhcpd.conf
 ```
 
+This example explains use of 2 different subnets and how we configure them, it is similar to our single subnet configuration except here we have added static host ip for bla1, bla2 on first subnet and bla3 for second subnet. Also in the config file we added hardware ethernet address for the server to know which client to assign the static ip.  
 
 ```
 ddns-update-style none;
@@ -128,8 +140,8 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
         option subnet-mask              255.255.255.0;
         option broadcast-address        192.168.1.255;
         option domain-name-servers      194.168.4.100;
-        option ntp-servers              192.168.1.1;
-        option netbios-name-servers     192.168.1.1;
+        option ntp-servers              192.168.1.1; 
+        option netbios-name-servers     192.168.1.1; we use netbios-name-servers for legacy backward support
         option netbios-node-type 2;
         default-lease-time 86400;
         max-lease-time 86400;
@@ -164,3 +176,13 @@ subnet  10.152.187.0 netmask 255.255.255.0 {
 }
 ```
 
+
+
+### Additional Links for Reference
+
+* [Tldp foundation link for DHCP server set up](http://www.tldp.org/HOWTO/DHCP/x369.html)
+* [Link for dhcp3 server for reference only it is now obselete and has been replaced by isc-dhcp-server](https://help.ubuntu.com/community/dhcp3-server)
+* [FreeBSD page for detailed description of config options](https://www.freebsd.org/cgi/man.cgi?query=dhcpd.conf&sektion=5&apropos=0&manpath=FreeBSD+9.0-RELEASE+and+Ports)
+* [DHCP lease overview link](http://www.tcpipguide.com/free/t_DHCPLeaseLifeCycleOverviewAllocationReallocationRe-2.htm)
+* DHCP Client States in the Lease Process [link1](https://technet.microsoft.com/en-us/library/cc958935.aspx) [link2](http://www.thenetworkencyclopedia.com/entry/dynamic-host-configuration-protocol-dhcp/)
+* [DHCP lease renewal](https://technet.microsoft.com/en-us/library/cc958919.aspx)
