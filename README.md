@@ -2,7 +2,6 @@
 This repository contains articles &amp; useful information about technologies what we are using. #TeamAvesta-KnowledgeBase
 
 
-
 #### Table of Content
 
 * [engineering][] -- All the engineering related topics like devops, sysops, development will go here.
