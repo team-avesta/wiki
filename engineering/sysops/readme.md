@@ -23,7 +23,8 @@ Sysops tools and articles.
 	* [Running BIND dns service in a Docker container][3]
 	* [Dns Configuration and adding dns entries][5]
 	* [Load Testing DNS using DNSPerf][6] 
-
+4. NTP
+	* [Chrony][8] -- Running chrony in a client server model 
 
 ##### to do
 * add articles for TCP\IP model
@@ -38,3 +39,4 @@ Sysops tools and articles.
 [5]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dns/dnsconfig.md
 [6]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/dnsdocker/query.md
 [7]: https://github.com/team-avesta/wiki/tree/master/engineering/sysops/dhcp#introduction-to-dhcp-basics-and-terminology
+[8]: https://github.com/team-avesta/wiki/blob/master/engineering/sysops/chrony/readme.md
