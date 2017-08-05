@@ -119,10 +119,6 @@ In the first example, the effect is the same regardles of what order the three d
 
 In the second example, the allow all 1.2 directives overrides the effect of any previous directive relating to a subnet within the specified subnet. Within a configuration file this capability is probably rather moot; however, it is of greater use for reconfiguration at run-time via chronyc (see section allow all).
 
-Note, if the initstepslew directive (see section initstepslew) is used in the configuration file, each of the computers listed in that directive must allow client access by this computer for it to work.
-
-
-
 
 
 
@@ -261,6 +257,8 @@ BE WARNED - certain software will be seriously affected by such jumps to the sys
 
 ## chronyc - command-line interface for chrony daemon
 
+
+We can use chronyc command line interface for checking performance of chroncy and other parameters.
 ```
 chronyc [OPTION]…​ [COMMAND]…​
 ```
