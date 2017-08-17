@@ -1,6 +1,6 @@
 
 Links
-=========================== 
+===========================
 
 Please post all the useful links here, but put them into exact category.
 Create a new category if you find that your link doesn't fit into any category.
@@ -11,6 +11,8 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Nodejs](#nodejs)
 - [Angular Js](#angular-js)
 - [React Js](#react-js)
+- [Webpack](#webpack)
+- [CSS](#Css)
 - [Microservices](#microservices)
 - [Docker](#docker)
 - [Kubernetes](#kubernetes)
@@ -45,6 +47,10 @@ Create a new category if you find that your link doesn't fit into any category.
 * [file-descriptors](https://www.bottomupcs.com/file_descriptors.xhtml) -- File descriptors
 * [Concurrency-and-parallelism](https://blog.risingstack.com/concurrency-and-parallelism-understanding-i-o/) -- Concurrency and Parallelism: Understanding I/O
 * [async/await](https://blog.risingstack.com/mastering-async-await-in-nodejs/?utm_source=Registered+to+Trace&utm_campaign=97d8b5bffb-EMAIL_CAMPAIGN_2017_07_05&utm_medium=email&utm_term=0_bdac0a3647-97d8b5bffb-475030101)
+* [mailgen](https://github.com/eladnava/mailgen) -- A Node.js package that generates clean, responsive HTML e-mails for sending transactional mail.
+
+## Webpack
+* [Introduction to Webpack: Entry, Output, Loaders, and Plugins](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/)
 
 ## React Js
 
@@ -54,10 +60,17 @@ Create a new category if you find that your link doesn't fit into any category.
 ## Angular Js
 
 * [awesome-](https://github.com/gianarb/awesome-angularjs) -- A list of awesome AngularJS services, directives, filters, utilities and resources.
+* [angular-js-style-guide](https://github.com/toddmotto/angularjs-styleguide/tree/angular-old-es5)
+
+## Css
+
+* [Shoelace Css](https://shoelace.style/) -- A back to the basics CSS starter kit. For when you don’t need the whole boot.
+* [Css in Js](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
+* [The-invisible-parts-of-css](https://madebymike.com.au/writing/the-invisible-parts-of-css/)
 
 ## Docker
 
-* [awesome-docker](https://github.com/veggiemonk/awesome-docker) -- A curated list of Docker resources and projects 
+* [awesome-docker](https://github.com/veggiemonk/awesome-docker) -- A curated list of Docker resources and projects
 * [Nodejs-Docker-Mulstistage-Build](https://codefresh.io/blog/node_docker_multistage/) -- Create lean Node.js image with Docker multi-stage build
 * [docker-cheatsheet](https://github.com/wsargent/docker-cheat-sheet#why-docker)
 * [nodejs-development-production-docker-workflow](http://jdlm.info/articles/2016/03/06/lessons-building-node-app-docker.html) -- Lessons from Building a Node App in Docker
@@ -154,7 +167,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## Prometheus
 
-* [System-monitoring-with-promethues](https://www.slideshare.net/brianbrazil/devops-ireland-systems-monitoring-with-prometheus) 
+* [System-monitoring-with-promethues](https://www.slideshare.net/brianbrazil/devops-ireland-systems-monitoring-with-prometheus)
 * [Monitoring-with-prometheus-and-docker](https://airtame.engineering/practical-services-monitoring-with-prometheus-and-docker-30abd3cf9603?mkt_tok=eyJpIjoiT1RaaFlXWTNaRFZtTW1FMCIsInQiOiJZdmNLNXJKN1lxaEtWaEJpZnpSYVJ0N3ZvVFRaWmRQVHA5Uk50K0ZIaXQ3ZmNJSGdObzMxVkUrOW9jWWUyamRQYW9YcmE4Tm43czgyQWtBK0JMNkxEeElRWmJVUjJXM05nc2lFZlpONmx0QVdYd0ZzR3BtUEhiQ0pzTnZVN2FCRyJ9)
 * [high-availability-prometheus-alerting](https://www.robustperception.io/high-availability-prometheus-alerting-and-notification/)
 
