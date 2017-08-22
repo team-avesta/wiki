@@ -11,4 +11,5 @@ Devops tools and articles.
   - [LoadTest](https://github.com/team-avesta/wiki/blob/master/engineering/devops/loadtest/README.md)
   - [Ansible](https://github.com/team-avesta/wiki/blob/master/engineering/devops/ansible/README.md)
   - [Deploy to Cdn(Cloudfront)](https://github.com/team-avesta/wiki/blob/master/engineering/devops/cdn/deployToCloudfront.md)
+  - [Cleanup-docker](https://github.com/team-avesta/wiki/blob/master/engineering/devops/docker/cleanup-docker.md)
 
