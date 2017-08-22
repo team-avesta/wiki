@@ -45,6 +45,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [file-descriptors](https://www.bottomupcs.com/file_descriptors.xhtml) -- File descriptors
 * [Concurrency-and-parallelism](https://blog.risingstack.com/concurrency-and-parallelism-understanding-i-o/) -- Concurrency and Parallelism: Understanding I/O
 * [async/await](https://blog.risingstack.com/mastering-async-await-in-nodejs/?utm_source=Registered+to+Trace&utm_campaign=97d8b5bffb-EMAIL_CAMPAIGN_2017_07_05&utm_medium=email&utm_term=0_bdac0a3647-97d8b5bffb-475030101)
+* [nodejs-eventloop](https://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c)
+* [eventloop-timers-and-nexttick](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
 
 ## React Js
 
@@ -66,12 +68,13 @@ Create a new category if you find that your link doesn't fit into any category.
 * [docker-internals](http://docker-saigon.github.io/post/Docker-Internals/)
 * [Docker Container Networks](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks)
 * [Making-security-invisible](https://docs.google.com/presentation/d/1x0DfyC8OxTHsiqf6YRGmqS63CjqCs8-613T_Dzdyi0Q/mobilepresent?slide=id.p) -- guide to secure dockers
+* [running-linxkitos-on-aws](http://collabnix.com/running-linuxkitos-on-amazon-web-service-platformaws/)
 
 
 ## Microservices
 
 * [awesome-microservices](https://github.com/mfornos/awesome-microservices/blob/master/README.md#platforms) -- A curated list of Microservice Architecture related principles and technologies.
-* [calling-your-serives](http://blog.christianposta.com/microservices/the-hardest-part-of-microservices-calling-your-services/) -- The Hardest Part of Microservices: Calling Your Services
+* [calling-your-services](http://blog.christianposta.com/microservices/the-hardest-part-of-microservices-calling-your-services/) -- The Hardest Part of Microservices: Calling Your Services
 * [Microservices with stateful streams](https://www.youtube.com/watch?v=c5sS1dB61Rs) -- Rethinking Microservices with Stateful Streams by Ben Stopford
 * [grpc-loadbalancing](https://grpc.io/blog/loadbalancing)
 * [grpc-production-examples-in-go])(https://about.sourcegraph.com/go/grpc-in-production-alan-shreve)
@@ -89,6 +92,10 @@ Create a new category if you find that your link doesn't fit into any category.
 * [project-calico](https://www.projectcalico.org/) -- Networking for Cloud native apps
 * [bestpractices-for-kubernetes](https://speakerdeck.com/thesandlord/kubernetes-best-practices)
 * [kubernetes-zop-stack](https://blog.codedellemc.com/2017/07/25/standing-zop-stack-kubernetes/?cmp=soc-cor-glbl-us-sprinklr-TWITTER--codeDellEMC-1001768203) -- Standing Up a ZOP Stack in Kubernetes
+* [how-kubernetes-scheduler-works](https://jvns.ca/blog/2017/07/27/how-does-the-kubernetes-scheduler-work/)
+* [extend-kubernetes](https://thenewstack.io/extend-kubernetes-1-7-custom-resources)
+* [continuous-delivery-the-hard-way-with-kubernetes](https://www.slideshare.net/lukemarsden/continuous-delivery-the-hard-way-with-kubernetes-78507782)
+* [patterns-for-composite-containers](http://blog.kubernetes.io/2015/06/the-distributed-system-toolkit-patterns.html)
 
 ## AWS
 
@@ -139,6 +146,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [claudiajs](https://claudiajs.com/) -- Claudia makes it easy to deploy Node.js projects to AWS Lambda and API Gateway
 * [ci-with-node-docker](https://pusher.com/sessions/meetup/london-node-user-group/speeding-up-ci-with-node-and-docker) -- Tips for running faster builds with NodeJS and Docker.
 * [terraform-dashboard](https://github.com/camptocamp/terraboard)
+* [devops-as-a-service-gruntwork](http://www.gruntwork.io/)
 
 ## Coreos
 
@@ -157,6 +165,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [System-monitoring-with-promethues](https://www.slideshare.net/brianbrazil/devops-ireland-systems-monitoring-with-prometheus) 
 * [Monitoring-with-prometheus-and-docker](https://airtame.engineering/practical-services-monitoring-with-prometheus-and-docker-30abd3cf9603?mkt_tok=eyJpIjoiT1RaaFlXWTNaRFZtTW1FMCIsInQiOiJZdmNLNXJKN1lxaEtWaEJpZnpSYVJ0N3ZvVFRaWmRQVHA5Uk50K0ZIaXQ3ZmNJSGdObzMxVkUrOW9jWWUyamRQYW9YcmE4Tm43czgyQWtBK0JMNkxEeElRWmJVUjJXM05nc2lFZlpONmx0QVdYd0ZzR3BtUEhiQ0pzTnZVN2FCRyJ9)
 * [high-availability-prometheus-alerting](https://www.robustperception.io/high-availability-prometheus-alerting-and-notification/)
+* [monitoring-app-in-kubernetes-with-prometheus](https://www.slideshare.net/lukemarsden/monitoring-your-app-in-kubernetes-with-prometheus?next_slideshow=1)
 
 ## Raspberrypi
 
