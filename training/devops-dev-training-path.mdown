@@ -45,4 +45,4 @@ You can follow the path according to your expertise. If you have just started op
 	* Kubernetes
 		* Linux Academy - Container Courses - Running Container Clusters with Kubernetes
 	* AWS
-		* * Linux Academy - AWS Courses - Ansible and Amazon Web Services
+		* Linux Academy - AWS Courses - Ansible and Amazon Web Services
