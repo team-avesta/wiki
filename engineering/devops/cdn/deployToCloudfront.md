@@ -24,3 +24,16 @@ Make sure to have *https* in `cdnUrl` value as we normally tell cloudfront to co
 
 Hence always use https protocol in cloudfront urls. Also make sure that if your origin is an S3 website (s3 bucket set to be served as a static site) and if you have set behaviour settings in cloudfront to allow cloudfront to access s3 only on https then it will not work as s3 cannot serve https requests in static site mode.
 
+
+#### Most Important Changes to make into Cloudfront Distribution
+
+- Edit your current cloudfront distribution
+- Go to the Behaviour Tab.
+- Set Allowed HTTP Methods to GET,HEAD,OPTIONS or  GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE
+- Select OPTIONS in Cached HTTP Methods
+- Edit Behaviour in which you want to allow cors origin.
+- In Forward headers, Select "Whitelist" value
+- In whitelist Headers, add "Origin" to the right side.
+- save it.
+- Invalidate your content and wait until cloudfront redistribute your policy to the all edge servers.
+
