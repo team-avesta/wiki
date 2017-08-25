@@ -8,11 +8,38 @@ You can follow the path according to your expertise. If you have just started de
 #### Training Path
 
 * Beginner
-	* [es6](https://github.com/team-avesta/wiki/blob/master/training/es6/README.md) -- Ecmascript 6
-	* [TDD](https://github.com/team-avesta/wiki/blob/master/training/tdd/Readme.md) -- Test Driven Development with Javascript
-	* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
+	* Scrum
+		* Kindle Book - Scrum: A breathtakingly Brief and Agile Introduction
+		* Kindle Book - The elements of Scrum
+	* Javascript
+		* [es6](https://github.com/team-avesta/wiki/blob/master/training/es6/README.md) -- Ecmascript 6
+		* Kindle Book - Test Driven Development with Javascript
+		* Kindle Book - Getting Started with Grunt
+	* Angular JS
+		* Kindle Book - Angularjs Up and running
+		* Kindle Book - Angularjs directives
+		* Kindle Book - Angularjs services
+	* React JS
+		* Ebook - FullStack React - The Complete Guide to ReactJS and Friends
+	* NodeJS
+		* Kindle Book - Nodejs the Right way
+		* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
+	* Docker
+		* Kindle Book - The Docker Book
+		* Linux Academy - Linux Courses - Docker Quick Start
+	* Git - Code Version Control
+		* Linux Academy - Linux Courses - Git Quick Start
+
 	
 * Adavanced
-	* [es6][] -- Ecmascript 6
-	* [TDD](https://github.com/team-avesta/wiki/blob/master/training/tdd/Readme.md) -- Test Driven Development with Javascript
-	* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
+	* Scrum
+		* Kindle Book - Agile Estimating and Planning
+	* Javascript
+	* Angular JS
+	* NodeJs
+		* Kindle Book - Developing Microservices with Nodejs
+	* PostgreSQL
+		* Kindle Book - PostgreSQL 9.0 High Performance
+		* Linux Academy - Linux Courses - PostgreSQL 9.4 Administration
+	* Git - Code Version Control
+		* Linux Academy - Linux Courses - Git and Git lab - Start to Finish

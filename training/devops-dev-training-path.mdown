@@ -8,11 +8,41 @@ You can follow the path according to your expertise. If you have just started op
 #### Training Path
 
 * Beginner
-	* [es6](https://github.com/team-avesta/wiki/blob/master/training/es6/README.md) -- Ecmascript 6
-	* [TDD](https://github.com/team-avesta/wiki/blob/master/training/tdd/Readme.md) -- Test Driven Development with Javascript
-	* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
+	* Devops
+		* Linux Academy - Devops Courses - Devops Essential
+	* Scrum
+		* Kindle Book - Scrum: A breathtakingly Brief and Agile Introduction
+		* Kindle Book - The elements of Scrum
+	* Linux
+		* Linux Academy - Linux Courses - Linux Essentials Certification
+		* Linux Academy - Linux Courses - Linux+ and LPIC-1: System Administrator - Exam 101
+		* Linux Academy - Linux Courses - Linux+ and LPIC-1: System Administrator - Exam 102
+	* Docker
+		* Kindle Book - The Docker Book
+		* Linux Academy - Linux Courses - Docker Quick Start
+		* Linux Academy - Container Courses - Docker Deep Dive
+	* Ansible
+		* Linux Academy - Devops Courses - Ansible Quick Start
+		* Linux Academy - Devops Courses - Using Ansible for Configuration Management and Deployments
+	* Terraform
+		* Kindle Book - Terraform: Up and Running
+	* CI/CD 
+		* Linux Academy - Devops Courses - Jenkins Quick Start
+	* AWS
+		* Linux Academy - Cloud Courses - AWS Essentials
 
 * Adavanced
-	* [es6][] -- Ecmascript 6
-	* [TDD](https://github.com/team-avesta/wiki/blob/master/training/tdd/Readme.md) -- Test Driven Development with Javascript
-	* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
+	* Scrum
+		* Kindle Book - Agile Estimating and Planning
+	* CoreOS
+		* Kindle Book - Learning CoreOS
+	* Devops
+		* Kindle Book - The Devops Handbook
+	* Ansible
+		* Linux Academy - AWS Courses - Ansible and Amazon Web Services
+	* Terraform
+		* Linux Academy - AWS Courses - Deploy to AWS with Ansible and Terraform
+	* Kubernetes
+		* Linux Academy - Container Courses - Running Container Clusters with Kubernetes
+	* AWS
+		* * Linux Academy - AWS Courses - Ansible and Amazon Web Services
