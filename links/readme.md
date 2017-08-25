@@ -13,6 +13,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [React Js](#react-js)
 - [Webpack](#webpack)
 - [CSS](#Css)
+- [Code Reviews](#code-reviews)
 - [Microservices](#microservices)
 - [Docker](#docker)
 - [Kubernetes](#kubernetes)
@@ -69,6 +70,9 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Shoelace Css](https://shoelace.style/) -- A back to the basics CSS starter kit. For when you don’t need the whole boot.
 * [Css in Js](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
 * [The-invisible-parts-of-css](https://madebymike.com.au/writing/the-invisible-parts-of-css/)
+
+## Code Reviews
+* [Code review tips](https://github.com/ryanmcdermott/code-review-tips) -- Common problems to look for in a code review.
 
 ## Docker
 
