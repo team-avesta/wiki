@@ -1,13 +1,12 @@
 Training
 ===========================
 
-All the training related materials will be go here.
+Training path for the developers and devops job roles.
 
 
-#### Table of Content
+#### Training Path
 
-* [es6][] -- Ecmascript 6
-* [TDD](https://github.com/team-avesta/wiki/blob/master/training/tdd/Readme.md) -- Test Driven Development with Javascript
-* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
-
-[es6]: https://github.com/team-avesta/wiki/blob/master/training/es6/README.md
+* FullStack Developers
+	* [Training Path](https://github.com/team-avesta/wiki/blob/master/training/es6/README.md) -- Ecmascript 
+* Devops
+	* [Training Path][] -- Ecmascript 6

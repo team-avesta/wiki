@@ -1,0 +1,18 @@
+Devops Training Path
+===========================
+
+Training path for the devops will go here.
+You can follow the path according to your expertise. If you have just started operations then follow the beginner path and if you are already doing operations and want to learn advanced level topics in any skills then follow the advanced path.
+
+
+#### Training Path
+
+* Beginner
+	* [es6](https://github.com/team-avesta/wiki/blob/master/training/es6/README.md) -- Ecmascript 6
+	* [TDD](https://github.com/team-avesta/wiki/blob/master/training/tdd/Readme.md) -- Test Driven Development with Javascript
+	* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
+
+* Adavanced
+	* [es6][] -- Ecmascript 6
+	* [TDD](https://github.com/team-avesta/wiki/blob/master/training/tdd/Readme.md) -- Test Driven Development with Javascript
+	* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
