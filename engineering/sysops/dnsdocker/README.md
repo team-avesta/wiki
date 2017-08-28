@@ -130,6 +130,7 @@ docker run --name bind -d --restart=always \
 ```
 
 
-### to do 
+### Additional info
 
-* explain how to remove ssl verification for localhost login
+To enable webmin login with ssl disabled, go to /srv/docker/bind/webmin/etc and edit miniserv.config and change "ssl=1" flag to "ssl=0"
+
