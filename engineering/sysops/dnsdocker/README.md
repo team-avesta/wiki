@@ -129,3 +129,7 @@ docker run --name bind -d --restart=always \
 
 ```
 
+
+### to do 
+
+* explain how to remove ssl verification for localhost login
