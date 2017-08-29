@@ -12,7 +12,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Angular Js](#angular-js)
 - [React Js](#react-js)
 - [Webpack](#webpack)
-- [CSS](#Css)
+- [CSS](#css)
 - [Code Reviews](#code-reviews)
 - [Microservices](#microservices)
 - [Docker](#docker)
@@ -118,6 +118,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [awesome-aws](https://github.com/donnemartin/awesome-aws) -- A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.
 * [manage-secrets-for-aws-ecs-apps](https://aws.amazon.com/blogs/compute/managing-secrets-for-amazon-ecs-applications-using-parameter-store-and-iam-roles-for-tasks/?sc_channel=sm&sc_campaign=PAC_Social&sc_publisher=TWITTER&sc_country=Global&sc_geo=GLOBAL&sc_outcome=adoption&sc_content=PAC_0708_ECS_parameter_store_and_IAM_roles&sc_category=Amazon_EC2%20Container%20Service&linkId=39544439)
+* [Video encoding using AWS Lambda and SNS](https://aws.amazon.com/blogs/compute/messaging-fanout-pattern-for-serverless-architectures-using-amazon-sns)
 
 ## Javascript
 

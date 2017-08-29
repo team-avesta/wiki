@@ -129,3 +129,8 @@ docker run --name bind -d --restart=always \
 
 ```
 
+
+### Additional info
+
+To enable webmin login with ssl disabled, go to /srv/docker/bind/webmin/etc and edit miniserv.config and change "ssl=1" flag to "ssl=0"
+
