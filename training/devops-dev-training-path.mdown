@@ -29,7 +29,10 @@ You can follow the path according to your expertise. If you have just started op
 	* CI/CD 
 		* Linux Academy - Devops Courses - Jenkins Quick Start
 	* AWS
+		* Linux Academy - Cloud Courses - AWS Concepts
 		* Linux Academy - Cloud Courses - AWS Essentials
+		* Linux Academy - Cloud Courses - AWS Certified Developer - Associate Level
+		* Linux Academy - Cloud Courses - AWS Certified SysOps Administrator - Associate Level
 
 * Adavanced
 	* Scrum
@@ -45,4 +48,5 @@ You can follow the path according to your expertise. If you have just started op
 	* Kubernetes
 		* Linux Academy - Container Courses - Running Container Clusters with Kubernetes
 	* AWS
+		* Linux Academy - AWS Courses - AWS Certified DevOps Engineer - Professional Level
 		* Linux Academy - AWS Courses - Ansible and Amazon Web Services
