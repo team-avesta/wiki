@@ -31,10 +31,11 @@ Once cloning is done, we go back to our repo. Now to tell git flow to use hooks 
 git config gitflow.path.hooks /path/to/git-flow-hooks
 ```
 
-Navigate to .git directory and remove the hooks folder. After removing we now provide a symlink to the git-flow-hooks directory that we recently cloned. Command to add symlink
 ```
-ln -s /path/to/git-flow-hooks .git/hooks
+git config gitflow.hotfix.finish.message "Hotfix %tag%"
+git config gitflow.release.finish.message "Release %tag%"
 ```
+
 
 Copy the file /path/to/git-flow-hooks/modules/git-flow-hooks-config.sh.dist to /path/to/git-flow-hooks/git-flow-hooks-config.sh and add the Slack Channel url to send messages to slack.
 
