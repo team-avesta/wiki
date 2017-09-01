@@ -11,6 +11,10 @@ You can follow the path according to your expertise. If you have just started de
 	* Scrum
 		* Kindle Book - Scrum: A breathtakingly Brief and Agile Introduction
 		* Kindle Book - The elements of Scrum
+	* Linux
+		* Linux Academy - Linux Courses - Linux Essentials Certification
+		* Linux Academy - Linux Courses - Linux+ and LPIC-1: System Administrator - Exam 101
+		* Linux Academy - Linux Courses - Linux+ and LPIC-1: System Administrator - Exam 102
 	* Javascript
 		* [es6](https://github.com/team-avesta/wiki/blob/master/training/es6/README.md) -- Ecmascript 6
 		* Kindle Book - Test Driven Development with Javascript
@@ -26,7 +30,21 @@ You can follow the path according to your expertise. If you have just started de
 		* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
 	* Docker
 		* Kindle Book - The Docker Book
+			* Chapters 1,2,4,5 Full
+			* Chapter 3
+				* Installing on Ubuntu
+			* Chapter 6
+				* Using Docker to test static website
+				* Using Docker to build and test a web application
+			* Chapter 7
+				* A multi-container application stack
+				* Managing Docker Container without ssh
+			* Chapter 8
+				* Docker-compose
+				* Consul, Service Discovery and Docker
+				* Docker Swarm
 		* Linux Academy - Linux Courses - Docker Quick Start
+		* Katacoda - Hands on Practices - [Docker](https://www.katacoda.com/courses/docker)
 	* Git - Code Version Control
 		* Linux Academy - Linux Courses - Git Quick Start
 

@@ -21,11 +21,10 @@ You can follow the path according to your expertise. If you have just started op
 		* Kindle Book - The Docker Book
 		* Linux Academy - Linux Courses - Docker Quick Start
 		* Linux Academy - Container Courses - Docker Deep Dive
+		* Katacoda - Hands on Practices - [Docker](https://www.katacoda.com/courses/docker)
 	* Ansible
 		* Linux Academy - Devops Courses - Ansible Quick Start
 		* Linux Academy - Devops Courses - Using Ansible for Configuration Management and Deployments
-	* Terraform
-		* Kindle Book - Terraform: Up and Running
 	* CI/CD 
 		* Linux Academy - Devops Courses - Jenkins Quick Start
 	* AWS
@@ -33,6 +32,8 @@ You can follow the path according to your expertise. If you have just started op
 		* Linux Academy - Cloud Courses - AWS Essentials
 		* Linux Academy - Cloud Courses - AWS Certified Developer - Associate Level
 		* Linux Academy - Cloud Courses - AWS Certified SysOps Administrator - Associate Level
+	* Terraform
+		* Kindle Book - Terraform: Up and Running
 
 * Adavanced
 	* Scrum

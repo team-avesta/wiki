@@ -51,6 +51,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [nodejs-eventloop](https://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c)
 * [eventloop-timers-and-nexttick](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
 * [mailgen](https://github.com/eladnava/mailgen) -- A Node.js package that generates clean, responsive HTML e-mails for sending transactional mail.
+* [api-design-guidelines](https://cloud.google.com/apis/design/)
 
 ## Webpack
 * [Introduction to Webpack: Entry, Output, Loaders, and Plugins](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/)
@@ -119,6 +120,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [awesome-aws](https://github.com/donnemartin/awesome-aws) -- A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources. Featuring the Fiery Meter of AWSome.
 * [manage-secrets-for-aws-ecs-apps](https://aws.amazon.com/blogs/compute/managing-secrets-for-amazon-ecs-applications-using-parameter-store-and-iam-roles-for-tasks/?sc_channel=sm&sc_campaign=PAC_Social&sc_publisher=TWITTER&sc_country=Global&sc_geo=GLOBAL&sc_outcome=adoption&sc_content=PAC_0708_ECS_parameter_store_and_IAM_roles&sc_category=Amazon_EC2%20Container%20Service&linkId=39544439)
 * [Video encoding using AWS Lambda and SNS](https://aws.amazon.com/blogs/compute/messaging-fanout-pattern-for-serverless-architectures-using-amazon-sns)
+* [Parameter Store](https://aws.amazon.com/blogs/mt/the-right-way-to-store-secrets-using-parameter-store/?sc_channel=sm&sc_campaign=AWS_Blog&sc_publisher=TWITTER&sc_country=Global&sc_geo=GLOBAL&sc_outcome=awareness&trk=_TWITTER&sc_content=mt_blog&sc_category=Amazon_EC2%20Systems%20Manager&linkId=41541654)
 
 ## Javascript
 
@@ -165,6 +167,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [ci-with-node-docker](https://pusher.com/sessions/meetup/london-node-user-group/speeding-up-ci-with-node-and-docker) -- Tips for running faster builds with NodeJS and Docker.
 * [terraform-dashboard](https://github.com/camptocamp/terraboard)
 * [devops-as-a-service-gruntwork](http://www.gruntwork.io/)
+* [featureflags](http://featureflags.io/)
 
 ## Coreos
 
@@ -198,6 +201,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [midnight-commander](http://linuxcommand.org/lc3_adv_mc.php)
 * [nixos](https://nixos.org/) -- NixOS is a Linux distribution with a unique approach to package and configuration management. Built on top of the Nix package manager.
 * [nfs-volume-mount](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-14-04) -- How To Set Up an NFS Mount on Ubuntu 14.04
+* [maas.io](https://maas.io)
 
 ## Logging & Monitoring
 
