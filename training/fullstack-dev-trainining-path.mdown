@@ -41,14 +41,12 @@ You can follow the path according to your expertise. If you have just started de
 				* Managing Docker Container without ssh
 			* Chapter 8
 				* Docker-compose
-				* Consul, Service Discovery and Docker
-				* Docker Swarm
 		* Linux Academy - Linux Courses - Docker Quick Start
 		* Katacoda - Hands on Practices - [Docker](https://www.katacoda.com/courses/docker)
 	* Git - Code Version Control
 		* Linux Academy - Linux Courses - Git Quick Start
 
-	
+
 * Adavanced
 	* Scrum
 		* Kindle Book - Agile Estimating and Planning
