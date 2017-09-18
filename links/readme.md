@@ -52,6 +52,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [eventloop-timers-and-nexttick](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
 * [mailgen](https://github.com/eladnava/mailgen) -- A Node.js package that generates clean, responsive HTML e-mails for sending transactional mail.
 * [api-design-guidelines](https://cloud.google.com/apis/design/)
+* [tus.io](https://tus.io) -- Open Protocol for Resumable File Uploads
 
 ## Webpack
 * [Introduction to Webpack: Entry, Output, Loaders, and Plugins](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/)
@@ -87,6 +88,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Docker Container Networks](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks)
 * [Making-security-invisible](https://docs.google.com/presentation/d/1x0DfyC8OxTHsiqf6YRGmqS63CjqCs8-613T_Dzdyi0Q/mobilepresent?slide=id.p) -- guide to secure dockers
 * [running-linxkitos-on-aws](http://collabnix.com/running-linuxkitos-on-amazon-web-service-platformaws/)
+* [pumba-docker-chaos-testing](http://blog.terranillius.com/post/pumba_docker_chaos_testing/)
 
 
 ## Microservices
