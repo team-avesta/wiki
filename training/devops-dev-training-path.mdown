@@ -34,6 +34,8 @@ You can follow the path according to your expertise. If you have just started op
 		* Linux Academy - Cloud Courses - AWS Certified SysOps Administrator - Associate Level
 	* Terraform
 		* Kindle Book - Terraform: Up and Running
+	* Kubernetes
+		* edx introduction course by Linux Foundation - [Kubernetes Introduction](https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS158x+2T2017/course/)
 
 * Adavanced
 	* Scrum

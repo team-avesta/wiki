@@ -142,6 +142,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [awesome-postgresql](https://github.com/dhamaniasad/awesome-postgres) -- A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
 * [working-with-times-in-postgres](http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/) -- Working With Time in Postgres
+* [Ansible-to-manage-postgresql](https://opensource.com/article/17/6/ansible-postgresql-operations)
 
 
 ## Elasticsearch
@@ -170,6 +171,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [terraform-dashboard](https://github.com/camptocamp/terraboard)
 * [devops-as-a-service-gruntwork](http://www.gruntwork.io/)
 * [featureflags](http://featureflags.io/)
+* [ansible-web-tool](https://github.com/ansible/awx)
 
 ## Coreos
 

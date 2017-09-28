@@ -28,6 +28,7 @@ You can follow the path according to your expertise. If you have just started de
 	* NodeJS
 		* Kindle Book - Nodejs the Right way
 		* [nodeschool](https://nodeschool.io/) -- Training of nodejs concepts.
+		* [Node.js Bootcamp](https://github.com/RisingStack/risingstack-bootcamp)
 	* Docker
 		* Kindle Book - The Docker Book
 			* Chapters 1,2,4,5 Full
