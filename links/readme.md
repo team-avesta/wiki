@@ -33,6 +33,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Logging & Monitoring](#logging&monitoring)
 - [Blockchain](#blockchain)
 - [Kafka](#kafka)
+- [Web Technologies](#web-technologies)
 
 
 ## Cloudnative
@@ -53,6 +54,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [mailgen](https://github.com/eladnava/mailgen) -- A Node.js package that generates clean, responsive HTML e-mails for sending transactional mail.
 * [api-design-guidelines](https://cloud.google.com/apis/design/)
 * [tus.io](https://tus.io) -- Open Protocol for Resumable File Uploads
+* [The Node.js Event Loop: Not So Single Threaded](https://www.youtube.com/watch?v=zphcsoSJMvM)
 
 ## Webpack
 * [Introduction to Webpack: Entry, Output, Loaders, and Plugins](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/)
@@ -61,6 +63,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [awesome-react](https://github.com/enaqx/awesome-react) -- A collection of awesome things regarding React ecosystem.
 * [react-pdf](https://github.com/diegomura/react-pdf)
+* [platform-for-reactnative-apps](https://shoutem.github.io/)
 
 ## Angular Js
 
@@ -116,6 +119,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [extend-kubernetes](https://thenewstack.io/extend-kubernetes-1-7-custom-resources)
 * [continuous-delivery-the-hard-way-with-kubernetes](https://www.slideshare.net/lukemarsden/continuous-delivery-the-hard-way-with-kubernetes-78507782)
 * [patterns-for-composite-containers](http://blog.kubernetes.io/2015/06/the-distributed-system-toolkit-patterns.html)
+* [graceful-shutdown-nodejs-kubernetes](https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/)
+* [kubernetes-aws-workshop](https://github.com/arun-gupta/kubernetes-aws-workshop)
 
 ## AWS
 
@@ -143,6 +148,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [awesome-postgresql](https://github.com/dhamaniasad/awesome-postgres) -- A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
 * [working-with-times-in-postgres](http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/) -- Working With Time in Postgres
 * [Ansible-to-manage-postgresql](https://opensource.com/article/17/6/ansible-postgresql-operations)
+* [postgresql-performance](https://www.datadoghq.com/blog/100x-faster-postgres-performance-by-changing-1-line/)
+* [sorting-performance](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/)
 
 
 ## Elasticsearch
@@ -223,3 +230,7 @@ Create a new category if you find that your link doesn't fit into any category.
 ## Kafka
 
 * [kafka-for-service-architectures](https://www.confluent.io/blog/apache-kafka-for-service-architectures/) -- Using Apache Kafka as a Scalable, Event Driven Backbone for Service Architectures
+
+
+## Web Technologies
+* [serve-static-files-from-ram-with-nginx](https://blog.wyrihaximus.net/2010/07/serving-static-content-from-tmpfs-with-nginx/)
