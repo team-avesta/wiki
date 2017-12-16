@@ -138,6 +138,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [horizon.io](https://horizon.io/) -- Horizon is a realtime, open-source backend for JavaScript apps.
 * [turbo.js](https://turbo.github.io/) -- GPGPU JS
 * [state-of-javascript](https://stateofjs.com/)
+* [30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) -- Curated collection of useful Javascript snippets that you can understand in 30 seconds or less.
 
 ## TDD
 
