@@ -139,6 +139,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [turbo.js](https://turbo.github.io/) -- GPGPU JS
 * [state-of-javascript](https://stateofjs.com/)
 * [30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) -- Curated collection of useful Javascript snippets that you can understand in 30 seconds or less.
+* [ECharts](https://github.com/ecomfe/echarts) -- ECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
 
 ## TDD
 
