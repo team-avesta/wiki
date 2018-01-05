@@ -76,6 +76,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Shoelace Css](https://shoelace.style/) -- A back to the basics CSS starter kit. For when you don’t need the whole boot.
 * [Css in Js](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
 * [The-invisible-parts-of-css](https://madebymike.com.au/writing/the-invisible-parts-of-css/)
+* [Front-End Performance Checklist 2018](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/) -- A very useful front-end performance checklist for 2018 by Vitaly Friedman
 
 ## HTML
 * [Code My UI](https://codemyui.com) -- Web Design Inspiration - HTML and CSS Snippets
