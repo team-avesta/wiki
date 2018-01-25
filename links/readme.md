@@ -13,6 +13,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [React Js](#react-js)
 - [Webpack](#webpack)
 - [CSS](#css)
+- [HTML](#html)
 - [Code Reviews](#code-reviews)
 - [Microservices](#microservices)
 - [Docker](#docker)
@@ -78,6 +79,10 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Shoelace Css](https://shoelace.style/) -- A back to the basics CSS starter kit. For when you don’t need the whole boot.
 * [Css in Js](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
 * [The-invisible-parts-of-css](https://madebymike.com.au/writing/the-invisible-parts-of-css/)
+* [Front-End Performance Checklist 2018](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/) -- A very useful front-end performance checklist for 2018 by Vitaly Friedman
+
+## HTML
+* [Code My UI](https://codemyui.com) -- Web Design Inspiration - HTML and CSS Snippets
 
 ## Code Reviews
 * [Code review tips](https://github.com/ryanmcdermott/code-review-tips) -- Common problems to look for in a code review.
@@ -141,6 +146,9 @@ Create a new category if you find that your link doesn't fit into any category.
 * [horizon.io](https://horizon.io/) -- Horizon is a realtime, open-source backend for JavaScript apps.
 * [turbo.js](https://turbo.github.io/) -- GPGPU JS
 * [state-of-javascript](https://stateofjs.com/)
+* [30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) -- Curated collection of useful Javascript snippets that you can understand in 30 seconds or less.
+* [ECharts](https://github.com/ecomfe/echarts) -- ECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
+* [Array Explorer](https://sdras.github.io/array-explorer/) -- Find the array method you need without digging through the docs.
 
 ## TDD
 
