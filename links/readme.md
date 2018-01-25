@@ -34,6 +34,8 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Blockchain](#blockchain)
 - [Kafka](#kafka)
 - [Web Technologies](#web-technologies)
+- [APM](#apm)
+- [General](#general)
 
 
 ## Cloudnative
@@ -41,6 +43,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [distributed-logging-pdf](https://schd.ws/hosted_files/cloudnativeeu2017/9c/CloudNativeCon_Europe_2017_distributed_logging.pdf) -- The patterns of distributed logging and containers
 * [CockroachDB-cloudnative-db](https://schd.ws/hosted_files/cloudnativeeu2017/43/Building%20a%20Cloud-Native%20SQL%20Database.pdf)
 * [microservice-demo](https://github.com/microservices-demo)
+* [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability#principles)
 
 ## Nodejs
 
@@ -234,3 +237,10 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## Web Technologies
 * [serve-static-files-from-ram-with-nginx](https://blog.wyrihaximus.net/2010/07/serving-static-content-from-tmpfs-with-nginx/)
+
+
+## APM
+* [netdata](https://github.com/firehol/netdata)
+
+## General
+* [NFS](https://www.ibm.com/developerworks/library/l-network-filesystems/index.html)
