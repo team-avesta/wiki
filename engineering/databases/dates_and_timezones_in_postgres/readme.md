@@ -26,9 +26,9 @@ Dates and timezones are a tricky thing to deal with when working with postgres w
 * At times there would be requirement to generate monthly or weekly reports automatically on scheduled intervals via cron jobs on the server or any other mechanism. This means that client would not be involved here in supplying the date information and the date that is required to be sent for querying would be generated from node itself.
 * In such cases the knowlegde of timezone of client to whom these reports are going to be delivered matters becuase the UTC date string will have to be created based upon the client's time zone. For example if we need to query records for say 2nd Feb 2018 then UTC string that should be sent to pg for two clients in IST and PDT at the time of this writing is as follows
 ``` sql
-//IST (+5.30 UTC)
+--IST (+5.30 UTC)
 from : '2018-02-01T18:30:00.000Z' to : '2018-02-02T18:30:00.000Z'
-//PDT (-7 UTC)
+--PDT (-7 UTC)
 from : '2018-02-02T07:00:00.000Z' to : '2018-02-03T07:00:00.000Z'
 ```
 * In order to generate such kind of dates on node it may be recommended to use moment.js
@@ -37,8 +37,8 @@ from : '2018-02-02T07:00:00.000Z' to : '2018-02-03T07:00:00.000Z'
 ---
 * In postgres all date or time or date/time queries will be range queries as we no longer compare just the date from date string. We need the exact date string with timezone information for all date related queries. Examples are shown below
 ```sql
-//query for a particular date for ex 2nd feb 2018
+--query for a particular date for ex 2nd feb 2018
 SELECT  * FROM  your_table WHERE your_column between '2018-02-01T18:30:00.000Z' and timestamp '2018-02-01T18:30:00.000Z'  + interval '1' day;
-//query for all records of January 2018
+--query for all records of January 2018
 SELECT  * FROM  your_table WHERE your_column between '2017-12-31T18:30:00.000Z' and timestamp '2017-12-31T18:30:00.000Z'  + interval '1' month;
 ```
