@@ -10,6 +10,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Cloudnative](#cloudnative)
 - [Nodejs](#nodejs)
 - [Angular Js](#angular-js)
+- [Testing] (#testing)
 - [React Js](#react-js)
 - [Webpack](#webpack)
 - [CSS](#css)
@@ -73,6 +74,10 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [awesome-](https://github.com/gianarb/awesome-angularjs) -- A list of awesome AngularJS services, directives, filters, utilities and resources.
 * [angular-js-style-guide](https://github.com/toddmotto/angularjs-styleguide/tree/angular-old-es5)
+
+## Testing
+
+* [An Overview of JavaScript Testing in 2018](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3) -- This guide is intended to catch you up with the most important reasoning, terms, tools, and approaches to JavaScript testing in 2018.
 
 ## Css
 
