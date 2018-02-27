@@ -17,7 +17,7 @@ Dates and timezones are a tricky thing to deal with when working with postgres w
      * Any other date string which does not have time and timezone information (invalid)
 * When working with just date filter where we are dealing explicitly with dates and not time ensure that the hours, minutes and seconds value in the date that is to sent to server are set to 0 (assuming client is in IST). So if you are filtering for records on say 2nd Feb 2018 the following values are valid
   * 2018-02-01T18:30:00.000Z (12 AM on 2nd Feb is 18:30 on 1st Feb in UTC as it runs -5.30 from IST)
-  * 2018-02-02T18:30:00.000Z (invalid as it specifies time information which is not required)
+  * 2018-02-02T18:30:00.000Z (above date + 24 hours )
 * If using Angular material the datepicker component that is inbuilt gives date string with timezone information in UTC and that too with hours, minutes and seconds set to 0. If you select 15th Jan 2018 in picker the date value you get in your model will be `2018-01-14T18:30:00.000Z`. Hence in this case it requires no more effort on the frontend while sending params in API
 * If you need to filter data on date and time both then the format of date will be the same as mentioned below (i.e UTC) but as expected do not set hh/mm/yy bits to zero.
 
