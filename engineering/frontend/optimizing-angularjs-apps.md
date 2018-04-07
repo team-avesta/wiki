@@ -1,5 +1,4 @@
 # Tips to optimize Angular 1.x apps for performance
----
 
 In most cases performance optimization's are introduced at a later stage when your application starts to hog ton of memory and then eventually crashes after a prolonged use of time.
 
@@ -47,6 +46,6 @@ References
 ____
 
 - Fantatic article (probaly the best we have found) - https://www.dwmkerr.com/fixing-memory-leaks-in-angularjs-applications/
-- 
+
 
 (vb)
