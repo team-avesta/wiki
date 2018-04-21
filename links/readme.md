@@ -86,6 +86,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Css in Js](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
 * [The-invisible-parts-of-css](https://madebymike.com.au/writing/the-invisible-parts-of-css/)
 * [Front-End Performance Checklist 2018](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/) -- A very useful front-end performance checklist for 2018 by Vitaly Friedman
+* [Scroll to the future](https://evilmartians.com/chronicles/scroll-to-the-future-modern-javascript-css-scrolling-implementations) -- Everything you always wanted to know about implementing scrolling but were afraid to ask. We have scrolled to the bottom of modern web specifications to take you on a whirlwind tour of latest CSS and JavaScript features that make navigating around a single page smooth, beautiful and less resource-hungry.
 
 ## HTML
 * [Code My UI](https://codemyui.com) -- Web Design Inspiration - HTML and CSS Snippets
