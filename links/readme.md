@@ -198,6 +198,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [devops-as-a-service-gruntwork](http://www.gruntwork.io/)
 * [featureflags](http://featureflags.io/)
 * [ansible-web-tool](https://github.com/ansible/awx)
+* [An Introduction to CI/CD Best Practices](https://www.digitalocean.com/community/tutorials/an-introduction-to-ci-cd-best-practices)
 
 ## Coreos
 
