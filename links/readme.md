@@ -64,6 +64,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## Webpack
 * [Introduction to Webpack: Entry, Output, Loaders, and Plugins](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/)
+* [An Easy to Understand Webpack 4+ Configuration File with Comments](https://medium.com/@timurcatakli/an-easy-to-understand-webpack-4-configuration-file-with-comments-6213882e9edf)
 
 ## React Js
 
