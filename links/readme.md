@@ -10,6 +10,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Cloudnative](#cloudnative)
 - [Nodejs](#nodejs)
 - [Angular Js](#angular-js)
+- [Testing](#testing)
 - [React Js](#react-js)
 - [Webpack](#webpack)
 - [CSS](#css)
@@ -37,6 +38,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Web Technologies](#web-technologies)
 - [APM](#apm)
 - [General](#general)
+- [Load testing](#load-testing)
 
 
 ## Cloudnative
@@ -62,6 +64,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## Webpack
 * [Introduction to Webpack: Entry, Output, Loaders, and Plugins](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/)
+* [An Easy to Understand Webpack 4+ Configuration File with Comments](https://medium.com/@timurcatakli/an-easy-to-understand-webpack-4-configuration-file-with-comments-6213882e9edf)
 
 ## React Js
 
@@ -74,12 +77,18 @@ Create a new category if you find that your link doesn't fit into any category.
 * [awesome-](https://github.com/gianarb/awesome-angularjs) -- A list of awesome AngularJS services, directives, filters, utilities and resources.
 * [angular-js-style-guide](https://github.com/toddmotto/angularjs-styleguide/tree/angular-old-es5)
 
+## Testing
+
+* [An Overview of JavaScript Testing in 2018](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3) -- This guide is intended to catch you up with the most important reasoning, terms, tools, and approaches to JavaScript testing in 2018.
+* [Test Driven Database Development](https://www.safaribooksonline.com/library/view/test-driven-database/9781449396510/) -- This video introduces the concept of test-driven development to database administrators. We'll use pgTAP to work through a real-world example creating a database design with an intuitive, useful interface for managing application data.
+
 ## Css
 
 * [Shoelace Css](https://shoelace.style/) -- A back to the basics CSS starter kit. For when you don’t need the whole boot.
 * [Css in Js](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
 * [The-invisible-parts-of-css](https://madebymike.com.au/writing/the-invisible-parts-of-css/)
 * [Front-End Performance Checklist 2018](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/) -- A very useful front-end performance checklist for 2018 by Vitaly Friedman
+* [Scroll to the future](https://evilmartians.com/chronicles/scroll-to-the-future-modern-javascript-css-scrolling-implementations) -- Everything you always wanted to know about implementing scrolling but were afraid to ask. We have scrolled to the bottom of modern web specifications to take you on a whirlwind tour of latest CSS and JavaScript features that make navigating around a single page smooth, beautiful and less resource-hungry.
 
 ## HTML
 * [Code My UI](https://codemyui.com) -- Web Design Inspiration - HTML and CSS Snippets
@@ -151,6 +160,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) -- Curated collection of useful Javascript snippets that you can understand in 30 seconds or less.
 * [ECharts](https://github.com/ecomfe/echarts) -- ECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
 * [Array Explorer](https://sdras.github.io/array-explorer/) -- Find the array method you need without digging through the docs.
+* [A guide to JavaScript Regular Expressions](https://flaviocopes.com/javascript-regular-expressions/) -- Learn everything about JavaScript Regular Expressions with this brief guide that summarizes the most important concepts and shows them off with 
 
 ## TDD
 
@@ -192,6 +202,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [devops-as-a-service-gruntwork](http://www.gruntwork.io/)
 * [featureflags](http://featureflags.io/)
 * [ansible-web-tool](https://github.com/ansible/awx)
+* [An Introduction to CI/CD Best Practices](https://www.digitalocean.com/community/tutorials/an-introduction-to-ci-cd-best-practices)
 
 ## Coreos
 
@@ -252,5 +263,8 @@ Create a new category if you find that your link doesn't fit into any category.
 ## APM
 * [netdata](https://github.com/firehol/netdata)
 
-## General
+## Load Testing
 * [NFS](https://www.ibm.com/developerworks/library/l-network-filesystems/index.html)
+
+## General
+* [Apache Bench](https://httpd.apache.org/docs/2.4/programs/ab.html) - The ApacheBench tool (ab) can load test servers by sending an arbitrary number of concurrent requests.
