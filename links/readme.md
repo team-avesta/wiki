@@ -100,6 +100,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Making-security-invisible](https://docs.google.com/presentation/d/1x0DfyC8OxTHsiqf6YRGmqS63CjqCs8-613T_Dzdyi0Q/mobilepresent?slide=id.p) -- guide to secure dockers
 * [running-linxkitos-on-aws](http://collabnix.com/running-linuxkitos-on-amazon-web-service-platformaws/)
 * [pumba-docker-chaos-testing](http://blog.terranillius.com/post/pumba_docker_chaos_testing/)
+* [Container-patterns](https://l0rd.github.io/containerspatterns/#1)
 
 
 ## Microservices
@@ -129,6 +130,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [patterns-for-composite-containers](http://blog.kubernetes.io/2015/06/the-distributed-system-toolkit-patterns.html)
 * [graceful-shutdown-nodejs-kubernetes](https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/)
 * [kubernetes-aws-workshop](https://github.com/arun-gupta/kubernetes-aws-workshop)
+* [useful-kubernetes-tools](https://caylent.com/50-useful-kubernetes-tools/)
 
 ## AWS
 
