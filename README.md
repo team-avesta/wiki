@@ -8,9 +8,9 @@ This repository contains articles &amp; useful information about technologies wh
 * [training][] -- Training related meterials will go here.
 * [links][] -- Links about some useful articles, blogs will go here.
 
-[engineering]: https://github.com/team-avesta/wiki/blob/master/engineering/readme.md
-[training]: https://github.com/team-avesta/wiki/blob/master/training/README.md
-[links]: https://github.com/team-avesta/wiki/blob/master/links/readme.md
+[engineering]: ./engineering/readme.md
+[training]: ./training/README.md
+[links]: ./links/readme.md
 
 
 ## How to Contribute
