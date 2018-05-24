@@ -163,7 +163,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [30-seconds-of-code](https://github.com/Chalarangelo/30-seconds-of-code) -- Curated collection of useful Javascript snippets that you can understand in 30 seconds or less.
 * [ECharts](https://github.com/ecomfe/echarts) -- ECharts is a free, powerful charting and visualization library offering an easy way of adding intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
 * [Array Explorer](https://sdras.github.io/array-explorer/) -- Find the array method you need without digging through the docs.
-* [A guide to JavaScript Regular Expressions](https://flaviocopes.com/javascript-regular-expressions/) -- Learn everything about JavaScript Regular Expressions with this brief guide that summarizes the most important concepts and shows them off with 
+* [A guide to JavaScript Regular Expressions](https://flaviocopes.com/javascript-regular-expressions/) -- Learn everything about JavaScript Regular Expressions with this brief guide that summarizes the most important concepts and shows them off with
+* [Modern JavaScript Explained For Dinosaurs](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs) -- Learning modern JavaScript is tough if you haven’t been there since the beginning. The ecosystem is growing and changing so rapidly that it’s hard to understand the problems that different tools are trying to solve. This article kind of gives you an insight into why learning things & tools other than HTML,CSS and JS matter.
 
 ## TDD
 
