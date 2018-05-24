@@ -39,6 +39,8 @@ Create a new category if you find that your link doesn't fit into any category.
 - [APM](#apm)
 - [General](#general)
 - [Load testing](#load-testing)
+- [OpenCV](#opencv)
+- [machinelearning](#machinelearning)
 
 
 ## Cloudnative
@@ -140,6 +142,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [graceful-shutdown-nodejs-kubernetes](https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/)
 * [kubernetes-aws-workshop](https://github.com/arun-gupta/kubernetes-aws-workshop)
 * [useful-kubernetes-tools](https://caylent.com/50-useful-kubernetes-tools/)
+* [chaos engineering](https://learnk8s.io/blog/kubernetes-chaos-engineering-lessons-learned)
 
 ## AWS
 
@@ -242,6 +245,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [logging-for-containers](https://www.linux.com/news/learn/kubernetes/2017/2/distributed-logging-containers) -- Distributed Logging for Containers
 * [monitoring-talks](https://techbeacon.com/10-monitoring-talks-every-developer-should-watch) -- 10 monitoring talks that every developer should watch
+* [monitoring-in-the-time-of-cloud-native](https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e)
 
 
 ## Blockchain
@@ -268,3 +272,9 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## General
 * [Apache Bench](https://httpd.apache.org/docs/2.4/programs/ab.html) - The ApacheBench tool (ab) can load test servers by sending an arbitrary number of concurrent requests.
+
+## OpenCV
+* [test](https://google.com) - test link.
+
+## MachineLearning
+* [test](https://google.com) - test link.
