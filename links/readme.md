@@ -94,6 +94,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## HTML
 * [Code My UI](https://codemyui.com) -- Web Design Inspiration - HTML and CSS Snippets
+* [Codepen Design Patterns](https://codepen.io/patterns) -- Ideas, inspiration and examples for your own projects.
 
 ## Code Reviews
 * [Code review tips](https://github.com/ryanmcdermott/code-review-tips) -- Common problems to look for in a code review.
