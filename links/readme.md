@@ -166,6 +166,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Array Explorer](https://sdras.github.io/array-explorer/) -- Find the array method you need without digging through the docs.
 * [A guide to JavaScript Regular Expressions](https://flaviocopes.com/javascript-regular-expressions/) -- Learn everything about JavaScript Regular Expressions with this brief guide that summarizes the most important concepts and shows them off with
 * [Modern JavaScript Explained For Dinosaurs](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs) -- Learning modern JavaScript is tough if you haven’t been there since the beginning. The ecosystem is growing and changing so rapidly that it’s hard to understand the problems that different tools are trying to solve. This article kind of gives you an insight into why learning things & tools other than HTML,CSS and JS matter.
+* [ReLaXed](https://github.com/RelaxedJS/ReLaXed) -- Create PDF documents using web technologies
 
 ## TDD
 
