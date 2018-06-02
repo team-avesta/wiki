@@ -179,7 +179,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Ansible-to-manage-postgresql](https://opensource.com/article/17/6/ansible-postgresql-operations)
 * [postgresql-performance](https://www.datadoghq.com/blog/100x-faster-postgres-performance-by-changing-1-line/)
 * [sorting-performance](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/)
-
+* [skor](https://github.com/hasura/skor) -- Listen to postgres events and forward them as JSON payloads to a webhook
 
 ## Elasticsearch
 
