@@ -262,6 +262,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [kafka-for-service-architectures](https://www.confluent.io/blog/apache-kafka-for-service-architectures/) -- Using Apache Kafka as a Scalable, Event Driven Backbone for Service Architectures
 
+* [Apache Kafka tutorials](https://www.youtube.com/watch?v=gg-VwXSRnmg&list=PLkz1SCf5iB4enAR00Z46JwY9GGkaS2NON)
 
 ## Web Technologies
 * [serve-static-files-from-ram-with-nginx](https://blog.wyrihaximus.net/2010/07/serving-static-content-from-tmpfs-with-nginx/)
