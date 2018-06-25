@@ -180,6 +180,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [postgresql-performance](https://www.datadoghq.com/blog/100x-faster-postgres-performance-by-changing-1-line/)
 * [sorting-performance](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/)
 * [skor](https://github.com/hasura/skor) -- Listen to postgres events and forward them as JSON payloads to a webhook
+* [A Performance Cheat Sheet for PostgreSQL](https://severalnines.com/blog/performance-cheat-sheet-postgresql) -- From analyzing queries to tweaking config settings.
 
 ## Elasticsearch
 
