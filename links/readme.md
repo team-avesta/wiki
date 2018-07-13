@@ -78,6 +78,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 * [awesome-](https://github.com/gianarb/awesome-angularjs) -- A list of awesome AngularJS services, directives, filters, utilities and resources.
 * [angular-js-style-guide](https://github.com/toddmotto/angularjs-styleguide/tree/angular-old-es5)
+* [E2E-testing-with-Protractor] (https://namitamalik.github.io/E2E-testing-with-Protractor/)
 
 ## Testing
 
