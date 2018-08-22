@@ -4,42 +4,32 @@
 #### General
 ---
 * Usually the first thing to do when starting a new project is to create a source code git repository.
-* Every Sqitch project must have a name associated with it, and, optionally, a unique URI. We recommend including the URI, as it increases the uniqueness of object identifiers internally. ** sqitch init flipr --uri https://github.com/theory/sqitch-intro/ --engine pg **
+* Every Sqitch project must have a name associated with it, and, optionally, a unique URI. We recommend including the URI, as it increases the uniqueness of object identifiers internally. 
+  * **sqitch init flipr --uri https://github.com/theory/sqitch-intro/ --engine pg**
 * After init sqitch project set username and email
-   ** sqitch config --user user.name 'Marge N. O’Vera'**
-   ** sqitch config --user user.email 'marge@example.com'**
-#### Things to watch out for on Client side
----
-* In case of UI which have grids with date filters such as By Date, By month, Date Range etc. the dates that should be passed to server should always contain timezone information and **MUST ALWAYS BE IN UTC** timezone format. Date string in UTC can be obtained using `new Date().toISOString()`Date string examples:
-     * 2018-02-02T14:07:40.340Z (valid)
-     * Fri Feb 02 2018 19:39:18 GMT+0530 (IST) (invalid)
-     * 02/02/2018 (invalid)
-     * 02-02-2018 (invalid)
-     * Any other date string which does not have time and timezone information (invalid)
-* When working with just date filter where we are dealing explicitly with dates and not time ensure that the hours, minutes and seconds value in the date that is to sent to server are set to 0 (assuming client is in IST). So if you are filtering for records on say 2nd Feb 2018 the following values are valid
-  * 2018-02-01T18:30:00.000Z (12 AM on 2nd Feb is 18:30 on 1st Feb in UTC as it runs -5.30 from IST)
-  * 2018-02-02T18:30:00.000Z (above date + 24 hours )
-* If using Angular material the datepicker component that is inbuilt gives date string with timezone information in UTC and that too with hours, minutes and seconds set to 0. If you select 15th Jan 2018 in picker the date value you get in your model will be `2018-01-14T18:30:00.000Z`. Hence in this case it requires no more effort on the frontend while sending params in API
-* If you need to filter data on date and time both then the format of date will be the same as mentioned below (i.e UTC) but as expected do not set hh/mm/yy bits to zero.
+  * **sqitch config --user user.name 'Marge N. O’Vera'**
+  * **sqitch config --user user.email 'marge@example.com'**
 
-#### Things to watch out for on Node
----
-* At times there would be requirement to generate monthly or weekly reports automatically on scheduled intervals via cron jobs on the server or any other mechanism. This means that client would not be involved here in supplying the date information and the date that is required to be sent for querying would be generated from node itself.
-* In such cases the knowlegde of timezone of client to whom these reports are going to be delivered matters becuase the UTC date string will have to be created based upon the client's time zone. For example if we need to query records for say 2nd Feb 2018 then UTC string that should be sent to pg for two clients in IST and PDT at the time of this writing is as follows
-``` sql
---IST (+5.30 UTC)
-from : '2018-02-01T18:30:00.000Z' to : '2018-02-02T18:30:00.000Z'
---PDT (-7 UTC)
-from : '2018-02-02T07:00:00.000Z' to : '2018-02-03T07:00:00.000Z'
-```
-* In order to generate such kind of dates on node it may be recommended to use moment.js
 
-#### Things to watch out for in Postgres
+#### Things to watch out
 ---
-* In postgres all date or time or date/time queries will be range queries as we no longer compare just the date from date string. We need the exact date string with timezone information for all date related queries. Examples are shown below
-```sql
---query for a particular date for ex 2nd feb 2018
-SELECT  * FROM  your_table WHERE your_column between '2018-02-01T18:30:00.000Z' and timestamp '2018-02-01T18:30:00.000Z'  + interval '1' day;
---query for all records of January 2018
-SELECT  * FROM  your_table WHERE your_column between '2017-12-31T18:30:00.000Z' and timestamp '2017-12-31T18:30:00.000Z'  + interval '1' month;
+* Example **Add users table** Please follow steps:
+     * create users table query through pgadmin.
+     * After created table, run command **sqitch add users -n 'Creates table to track our users.'**
+       - after execution of above command created three files in deploy, revert and verify folder with users.sql name.
+       - Create table query copy from pgadmin and paste into deploy/users.sql file.
+       - Drop table query into direct revert/user.sql file.
+       - Table is created or not, Put select query in verify/users.sql file.
+     * To run verify query, run command **sqitch verify**
+     * git add .
+     * git commit -am 'Add users table.'
+* When Database changes upload into production database, add tag into sqitch and git. For this use following command:
+  * **sqitch tag v1.0.0-dev1 -n 'Tag v1.0.0-dev1.'**
+  * **git commit -am 'Tag the database with v1.0.0-dev1.'**
+  * *g*it tag v1.0.0-dev1 -am 'Tag v1.0.0-dev1'**
+* Before release changes into production, tag is required. Otherwise we can not modify files.
+* After upload changes into production database, if change in any file run this command :
+  * **sqitch rework insert_user -n 'Change insert_user function.'**
+  * Now you have to change in deploy/insert_user.sql, revert/insert_user.sql and verify/insert_user.sql.
+
 ```
