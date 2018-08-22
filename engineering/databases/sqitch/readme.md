@@ -1,12 +1,13 @@
-# Guide to deal with sqith development and production version control system
+# Guide to deal with sqith development and production version control management
 
-Dates and timezones are a tricky thing to deal with when working with postgres which we discovered after going through a lot of pain. Hence based on our learnings we are documenting below points which should be always followed when working with postgres for making everyone's life a lot easy.
 
 #### General
 ---
-* Always use **timestamp with timezone data type column** for storing timestamp information.
-* **Postgres db timezone should always be set to 'UTC'**. Timezone information can be set using postgres configuration parameters. If you are using AWS RDS then too it provides such configuration options to set pg timezone
-* Unless absolutely required **DO NOT ACCEPT timestamps from client**. Timestamps should always be on the backend side most preferably in postgres SP's (i.e functions)
+* Usually the first thing to do when starting a new project is to create a source code git repository.
+* Every Sqitch project must have a name associated with it, and, optionally, a unique URI. We recommend including the URI, as it increases the uniqueness of object identifiers internally. ** sqitch init flipr --uri https://github.com/theory/sqitch-intro/ --engine pg **
+* After init sqitch project set username and email
+   ** sqitch config --user user.name 'Marge N. O’Vera'**
+   ** sqitch config --user user.email 'marge@example.com'**
 #### Things to watch out for on Client side
 ---
 * In case of UI which have grids with date filters such as By Date, By month, Date Range etc. the dates that should be passed to server should always contain timezone information and **MUST ALWAYS BE IN UTC** timezone format. Date string in UTC can be obtained using `new Date().toISOString()`Date string examples:
