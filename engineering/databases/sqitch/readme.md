@@ -18,8 +18,8 @@ sqitch config --user user.name 'Marge N. O’Vera'
 sqitch config --user user.email 'marge@example.com'
 ```
 
-#### Example use (Create new table)
----
+## Example use (Create new table)
+
 * create users table query through pgadmin.
 * After created table, run below command
 ```bash
