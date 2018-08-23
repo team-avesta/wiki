@@ -280,6 +280,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## General
 * [Apache Bench](https://httpd.apache.org/docs/2.4/programs/ab.html) - The ApacheBench tool (ab) can load test servers by sending an arbitrary number of concurrent requests.
+* [Insomnia Rest Client](https://insomnia.rest/) - Debug APIs like a human, not a robot
 
 ## OpenCV
 * [test](https://google.com) - test link.
