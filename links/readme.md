@@ -63,6 +63,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [api-design-guidelines](https://cloud.google.com/apis/design/)
 * [tus.io](https://tus.io) -- Open Protocol for Resumable File Uploads
 * [The Node.js Event Loop: Not So Single Threaded](https://www.youtube.com/watch?v=zphcsoSJMvM)
+* [How to Debug a Node.js app in a Docker Container](https://blog.risingstack.com/how-to-debug-a-node-js-app-in-a-docker-container/) -- In this post, we'll take a look at how you can debug a Node.js app in a Docker container.
 
 ## Webpack
 * [Introduction to Webpack: Entry, Output, Loaders, and Plugins](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/)
