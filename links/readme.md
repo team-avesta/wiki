@@ -93,13 +93,16 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Shoelace Css](https://shoelace.style/) -- A back to the basics CSS starter kit. For when you don’t need the whole boot.
 * [Css in Js](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
 * [The-invisible-parts-of-css](https://madebymike.com.au/writing/the-invisible-parts-of-css/)
-* [Front-End Performance Checklist 2018](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/) -- A very useful front-end performance checklist for 2018 by Vitaly Friedman
 * [Scroll to the future](https://evilmartians.com/chronicles/scroll-to-the-future-modern-javascript-css-scrolling-implementations) -- Everything you always wanted to know about implementing scrolling but were afraid to ask. We have scrolled to the bottom of modern web specifications to take you on a whirlwind tour of latest CSS and JavaScript features that make navigating around a single page smooth, beautiful and less resource-hungry.
 * [How to get better at writing CSS](https://medium.freecodecamp.org/how-to-get-better-at-writing-css-a1732c32a72f)
 
 ## HTML
 * [Code My UI](https://codemyui.com) -- Web Design Inspiration - HTML and CSS Snippets
 * [Codepen Design Patterns](https://codepen.io/patterns) -- Ideas, inspiration and examples for your own projects.
+
+## Frontend performance
+* [Web Performance Made Easy: Google I/O 2018 edition](https://developers.google.com/web/updates/2018/08/web-performance-made-easy) -- An epic roundup of the Web performance tools, libraries and optimization techniques (including predictive loading of assets) that Google presented at their I/O 2018 event.
+* [Front-End Performance Checklist 2018](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/) -- A very useful front-end performance checklist for 2018 by Vitaly Friedman
 
 ## Code Reviews
 * [Code review tips](https://github.com/ryanmcdermott/code-review-tips) -- Common problems to look for in a code review.
