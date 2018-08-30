@@ -284,6 +284,7 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## Load Testing
 * [NFS](https://www.ibm.com/developerworks/library/l-network-filesystems/index.html)
+* [Vegeta](https://github.com/tsenart/vegeta) -- HTTP load testing tool and library.
 
 ## General
 * [Apache Bench](https://httpd.apache.org/docs/2.4/programs/ab.html) - The ApacheBench tool (ab) can load test servers by sending an arbitrary number of concurrent requests.
