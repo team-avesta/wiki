@@ -130,6 +130,8 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Microservices with stateful streams](https://www.youtube.com/watch?v=c5sS1dB61Rs) -- Rethinking Microservices with Stateful Streams by Ben Stopford
 * [grpc-loadbalancing](https://grpc.io/blog/loadbalancing)
 * [grpc-production-examples-in-go])(https://about.sourcegraph.com/go/grpc-in-production-alan-shreve)
+* [When to Use What: REST, GraphQL, Webhooks, & gRPC](https://nordicapis.com/when-to-use-what-rest-graphql-webhooks-grpc/)
+
 
 ## Kubernetes
 
