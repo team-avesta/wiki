@@ -104,6 +104,7 @@ Create a new category if you find that your link doesn't fit into any category.
 ## Frontend performance
 * [Web Performance Made Easy: Google I/O 2018 edition](https://developers.google.com/web/updates/2018/08/web-performance-made-easy) -- An epic roundup of the Web performance tools, libraries and optimization techniques (including predictive loading of assets) that Google presented at their I/O 2018 event.
 * [Front-End Performance Checklist 2018](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/) -- A very useful front-end performance checklist for 2018 by Vitaly Friedman
+* [Accurately measuring layout on the web](https://nolanlawson.com/2018/09/25/accurately-measuring-layout-on-the-web/) -- Accurately-measuring-layout-on-the-web
 
 ## Code Reviews
 * [Code review tips](https://github.com/ryanmcdermott/code-review-tips) -- Common problems to look for in a code review.
