@@ -100,6 +100,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [Scroll to the future](https://evilmartians.com/chronicles/scroll-to-the-future-modern-javascript-css-scrolling-implementations) -- Everything you always wanted to know about implementing scrolling but were afraid to ask. We have scrolled to the bottom of modern web specifications to take you on a whirlwind tour of latest CSS and JavaScript features that make navigating around a single page smooth, beautiful and less resource-hungry.
 * [How to get better at writing CSS](https://medium.freecodecamp.org/how-to-get-better-at-writing-css-a1732c32a72f)
 * [What is Modular CSS?](https://spaceninja.com/2018/09/17/what-is-modular-css/) -- An in-depth exploration of Modular CSS.
+* [Picular](https://picular.co/) -- Google  but for colors
 
 ## HTML
 * [Code My UI](https://codemyui.com) -- Web Design Inspiration - HTML and CSS Snippets
