@@ -68,6 +68,8 @@ Create a new category if you find that your link doesn't fit into any category.
 
 ## Golang
 * [GopherCon 2018: Kavya Joshi - The Scheduler Saga](https://www.youtube.com/watch?v=YHRO5WQGh0k) -- The Go scheduler is the behind-the-scenes magical machine that powers Go programs. It efficiently runs goroutines, and also coordinates network IO and memory management.
+* [Doing Well by Doing Bad: Writing Bad Code with Go Part 1](https://medium.com/capital-one-tech/doing-well-by-doing-bad-writing-bad-code-with-go-part-1-2dbb96ce079a) -- Perhaps less a tutorial and more a satirical take on ways to make your Go code worse. Sometimes it’s valuable to reflect on what not to do(!)
+* [How Do You Structure Your Go Apps? ](https://www.youtube.com/watch?v=B5oQnECDJ8g) -- There is almost always more than one answer and it can be tricky to decide what will work best. 43 mins.
 
 ## Webpack
 * [Introduction to Webpack: Entry, Output, Loaders, and Plugins](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/)
