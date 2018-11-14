@@ -28,7 +28,6 @@ Create a new category if you find that your link doesn't fit into any category.
 - [Web Security](#web-security)
 - [Devops](#devops)
 - [Coreos](#coreos)
-- [Machine Learning & Image Processing](#machinelearning)
 - [Prometheus](#prometheus)
 - [Raspberrypi](#raspberrypi)
 - [Sysops](#sysops)
@@ -40,7 +39,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [General](#general)
 - [Load testing](#load-testing)
 - [OpenCV](#opencv)
-- [machinelearning](#machinelearning)
+- [Machine Learning](#machinelearning)
 - [Golang](#golang)
 
 
@@ -238,11 +237,6 @@ Create a new category if you find that your link doesn't fit into any category.
 * [coreos-overview](https://deis.com/blog/2016/coreos-overview-p1/)
 
 
-## Machine Learning
-
-* [deep learning courses](https://medium.freecodecamp.org/dive-into-deep-learning-with-these-23-online-courses-bf247d289cc0) -- Dive into Deep Learning with 15 free online courses
-* [tesseract-ocr-with-python](http://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/)
-
 ## Prometheus
 
 * [System-monitoring-with-promethues](https://www.slideshare.net/brianbrazil/devops-ireland-systems-monitoring-with-prometheus)
@@ -303,5 +297,83 @@ Create a new category if you find that your link doesn't fit into any category.
 ## OpenCV
 * [test](https://google.com) - test link.
 
-## MachineLearning
-* [test](https://google.com) - test link.
+
+## Machine Learning
+
+* [deep learning courses](https://medium.freecodecamp.org/dive-into-deep-learning-with-these-23-online-courses-bf247d289cc0) -- Dive into Deep Learning with 15 free online courses
+
+* **Data Annotation Tools**
+    * [BBox Label](https://github.com/puzzledqs/BBox-Label-Tool)
+    * [PolyRNN in PyTorch](https://github.com/fidler-lab/polyrnn-pp-pytorch)
+    * [VoTT](https://github.com/Microsoft/VoTT)
+    * [cvat](https://github.com/opencv/cvat)
+
+* **Data Augmentation Tools**
+    * [By Paperspace](https://github.com/Paperspace/DataAugmentationForObjectDetection)
+    * [imgaug](https://github.com/aleju/imgaug)
+    * [AutoAugment](https://github.com/DeepVoltaire/AutoAugment)
+
+* **Simple Convolutional Neural Network**
+    * [CNN in keras](https://github.com/keras-team/keras/tree/master/examples)
+
+* **Rest API**
+    * [Flask](http://flask.pocoo.org/)
+    * [Keras Tutorial](https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html)
+
+* **Visualizing Neural Network**
+    * [Quiver](https://github.com/keplr-io/quiver)
+    * [Tensorspace](https://github.com/tensorspace-team/tensorspace)
+    * [keras-vis](https://github.com/raghakot/keras-vis)
+    * [Deep-Visualization-Toolbox](https://github.com/yosinski/deep-visualization-toolbox)
+    * [AllenAI - BiLM-tf](https://github.com/allenai/bilm-tf)
+
+
+* **Face Detection & Recognition**
+    * [face_recognition](https://github.com/ageitgey/face_recognition)
+        * [Tutorial](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
+    * [Deep-Face-Recognition](http://krasserm.github.io/2018/02/07/deep-face-recognition/)
+    * [Facenet in tf](https://github.com/davidsandberg/facenet)
+    * in OpenCV
+        * [LearnOpenCV](https://www.learnopencv.com/face-detection-opencv-dlib-and-deep-learning-c-python/)
+        * [PyImageSearch](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
+
+
+* **Object Detection**
+    * [List of resources](https://github.com/hoya012/deep_learning_object_detection)
+    * [YOLOv3](https://pjreddie.com/darknet/yolo/)
+    * [YOLOv3 in Keras](https://github.com/qqwweee/keras-yolo3)
+
+
+* **Image Segmentation**
+    * UNet
+        * [in Keras](https://github.com/zhixuhao/unet)
+        * [Fast.ai Course](https://course.fast.ai/lessons/lesson14.html)
+        * [Pretrained - UNet 224](https://github.com/ZFTurbo/ZF_UNET_224_Pretrained_Model)
+    * [in Keras](https://github.com/divamgupta/image-segmentation-keras)
+    * [Mask R-CNN](https://www.learnopencv.com/deep-learning-based-object-detection-and-instance-segmentation-using-mask-r-cnn-in-opencv-python-c/)
+
+
+* **Scene Text Detector or OCR**
+    * EAST
+        * [in Keras](https://github.com/kurapan/EAST)
+        * [in tf](https://github.com/argman/EAST)
+    * [Pixellink in Keras](https://github.com/opconty/pixellink_keras)
+    * [List of resources](https://github.com/chongyangtao/Awesome-Scene-Text-Recognition)
+    * [STN-OCR](https://medium.com/syncedreview/stn-ocr-a-single-neural-network-for-text-detection-and-text-recognition-220debe6ded4)
+    * [OCR by Supervise.ly](https://hackernoon.com/latest-deep-learning-ocr-with-keras-and-supervisely-in-15-minutes-34aecd630ed8)
+    * [Tesseract in Python](https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/)
+
+
+* **NLP - Natural Language Processing**
+    * [NLP Progress](https://github.com/sebastianruder/NLP-progress)
+    * [ULMFit by FastAI](http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html)
+    * [BERT by Google](https://github.com/google-research/bert)
+    * [Text classification Models in tf](https://github.com/dongjun-Lee/text-classification-models-tf)
+    * [awesome-nlp](https://github.com/keon/awesome-nlp)
+    * [VDCNN](https://github.com/zonetrooper32/VDCNN)
+
+
+* **Recommendation Systems**
+    * [List of resources](https://github.com/grahamjenson/list_of_recommender_systems)
+    * [in DeepLearning](https://github.com/robi56/Deep-Learning-for-Recommendation-Systems)
+    * [MovieLens](https://github.com/khanhnamle1994/movielens)
