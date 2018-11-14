@@ -39,7 +39,7 @@ Create a new category if you find that your link doesn't fit into any category.
 - [General](#general)
 - [Load testing](#load-testing)
 - [OpenCV](#opencv)
-- [Machine Learning](#machinelearning)
+- [Machine Learning](#Machine-Learning)
 - [Golang](#golang)
 
 
