@@ -81,6 +81,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [react-pdf](https://github.com/diegomura/react-pdf)
 * [platform-for-reactnative-apps](https://shoutem.github.io/)
 * [JavaScript fundamentals before learning React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/)
+* [How much javascript you need to know to use react?](https://flaviocopes.com/react-javascript/) -- There are some pre-requisites technologies you have to be familiar with, in particular related to some of the more recent JavaScript features you’ll use over and over in React.
 
 ## Angular Js
 
