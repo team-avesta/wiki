@@ -82,6 +82,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [platform-for-reactnative-apps](https://shoutem.github.io/)
 * [JavaScript fundamentals before learning React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/)
 * [How much javascript you need to know to use react?](https://flaviocopes.com/react-javascript/) -- There are some pre-requisites technologies you have to be familiar with, in particular related to some of the more recent JavaScript features you’ll use over and over in React.
+* [Apex-charts](https://github.com/apexcharts/apexcharts.js) -- A modern JavaScript charting library to build interactive charts and visualizations with simple API.
 
 ## Angular Js
 
