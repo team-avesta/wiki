@@ -84,6 +84,7 @@ Create a new category if you find that your link doesn't fit into any category.
 * [JavaScript fundamentals before learning React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/)
 * [How much javascript you need to know to use react?](https://flaviocopes.com/react-javascript/) -- There are some pre-requisites technologies you have to be familiar with, in particular related to some of the more recent JavaScript features you’ll use over and over in React.
 * [Apex-charts](https://github.com/apexcharts/apexcharts.js) -- A modern JavaScript charting library to build interactive charts and visualizations with simple API.
+* [Learn React Hooks by writing your first Hook](https://buttercms.com/blog/learn-react-hooks-by-writing-your-first-hook) -- Grab a seat in your comfy place and get ready to level-up as you enjoy a wonderful in-depth explanation of a class vs hooks, the reasoning behind them, how to use built-in hook methods and create your own hook with examples, and much more!
 
 ## Angular Js
 
