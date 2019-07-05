@@ -79,6 +79,7 @@ Create a new category if you find that your link doesn't fit into any category.
 ## React Js
 
 * [awesome-react](https://github.com/enaqx/awesome-react) -- A collection of awesome things regarding React ecosystem.
+* [React basics speaker deck - Must watch !](https://speakerdeck.com/pedronauck/reactjs-keep-simple-everything-can-be-a-component) -- ReactJS: Keep Simple. Everything can be a component!
 * [react-pdf](https://github.com/diegomura/react-pdf)
 * [platform-for-reactnative-apps](https://shoutem.github.io/)
 * [JavaScript fundamentals before learning React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/)
